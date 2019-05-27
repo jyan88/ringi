@@ -4,7 +4,9 @@
         <element label="department" max_length="40" name="department" type="string"/>
         <element label="drafter" max_length="40" name="drafter" type="string"/>
         <element label="draftfile" max_length="40" name="draftfile" type="file_attachment"/>
-        <element label="finalist" max_length="40" name="finalist" type="string"/>
+        <element choice="3" default="社長権限稟議&#13;&#10;チーフ・オフィサー、グループ長権限稟議" label="finalist" max_length="40" name="finalist" type="string">
+            <choice/>
+        </element>
         <element label="headquater" max_length="40" name="headquater" type="string"/>
         <element label="issuer" max_length="40" name="issuer" type="string"/>
         <element label="mail" max_length="300" name="mail" type="string"/>
@@ -15,7 +17,7 @@
         <element label="presenter" max_length="40" name="presenter" type="string"/>
         <element label="scheduled date" max_length="40" name="scheduled_date" type="string"/>
         <element label="tel" max_length="40" name="tel" type="string"/>
-        <element label="topic" max_length="40" name="topic" type="string"/>
+        <element label="topic" max_length="500" name="topic" type="string"/>
         <element label="topicname" max_length="40" name="topicname" type="string"/>
     </element>
 </database>

@@ -2,7 +2,7 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>false</active>
+        <active>true</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -10,29 +10,29 @@
         <copied_from_name/>
         <description/>
         <internal_name>稟議フロー</internal_name>
-        <label_cache>[{"name":"d0ee6449-c46a-41ed-9d37-bdc41e61e349.table_name","label":"2➛テーブル","reference_display":"テーブル","type":"table_name","base_type":"table_name"},{"name":"d0ee6449-c46a-41ed-9d37-bdc41e61e349.record","label":"2➛ringi Record","reference":"x_348695_workflowt_ringi","reference_display":"ringi","type":"reference","base_type":"reference"},{"name":"ed8f3cd3-1276-422d-9b46-3664bbdab9f3.approval_state","label":"3➛承認ステータス","reference_display":"承認ステータス","type":"choice","base_type":"choice"}]</label_cache>
-        <latest_snapshot/>
-        <master_snapshot/>
+        <label_cache>[{"name":"f8a42a9c-5051-4929-83c3-fe2715a56e08.approval_state","label":"3➛承認ステータス","reference_display":"承認ステータス","type":"choice","base_type":"choice"},{"name":"Created_1.run_start_time","label":"トリガー➛実行開始時間","type":"glide_date_time","base_type":"glide_date_time"},{"name":"485042e3-df5b-42ff-a99c-bdf72a8f2bfa.table_name","label":"2➛ringi テーブル","reference":"x_348695_workflowt_ringi","reference_display":"ringi","type":"table_name","base_type":"table_name"},{"name":"485042e3-df5b-42ff-a99c-bdf72a8f2bfa.record","label":"2➛ringi Record","reference":"x_348695_workflowt_ringi","reference_display":"ringi","type":"reference","base_type":"reference"},{"name":"d0ee6449-c46a-41ed-9d37-bdc41e61e349.table_name","label":"2➛テーブル","reference_display":"テーブル","type":"table_name","base_type":"table_name"},{"name":"d0ee6449-c46a-41ed-9d37-bdc41e61e349.record","label":"2➛ringi Record","reference":"x_348695_workflowt_ringi","reference_display":"ringi","type":"reference","base_type":"reference"},{"name":"ed8f3cd3-1276-422d-9b46-3664bbdab9f3.approval_state","label":"2➛承認ステータス","reference_display":"承認ステータス","type":"choice","base_type":"choice"}]</label_cache>
+        <latest_snapshot>eaf018234fa133000c1c4a10a310c7ae</latest_snapshot>
+        <master_snapshot>eaf018234fa133000c1c4a10a310c7ae</master_snapshot>
         <name>draftflow</name>
         <outputs/>
-        <remote_trigger_id/>
+        <remote_trigger_id>fef058234fa133000c1c4a10a310c705</remote_trigger_id>
         <run_as>user</run_as>
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>draft</status>
+        <status>published</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-27 00:30:55</sys_created_on>
         <sys_id>3db4b31b4f2133000c1c4a10a310c726</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name>draftflow</sys_name>
         <sys_package display_value="ワークフローテスト" source="x_348695_workflowt">7c64ffd34f2133000c1c4a10a310c7ab</sys_package>
         <sys_policy/>
         <sys_scope display_value="ワークフローテスト">7c64ffd34f2133000c1c4a10a310c7ab</sys_scope>
         <sys_update_name>sys_hub_flow_3db4b31b4f2133000c1c4a10a310c726</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-05-27 01:26:34</sys_updated_on>
+        <sys_updated_on>2019-05-27 05:52:24</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=3db4b31b4f2133000c1c4a10a310c726"/>
