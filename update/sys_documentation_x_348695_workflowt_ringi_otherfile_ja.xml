@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update>
-    <sys_documentation element="otherfile" label="otherfile" language="ja" table="x_348695_workflowt_ringi">
+    <sys_documentation element="otherfile" label="その他資料" language="ja" table="x_348695_workflowt_ringi">
         <sys_documentation action="INSERT_OR_UPDATE">
             <element>otherfile</element>
             <help/>
             <hint/>
-            <label>otherfile</label>
+            <label>その他資料</label>
             <language>ja</language>
             <name>x_348695_workflowt_ringi</name>
             <plural>otherfiles</plural>
@@ -12,14 +12,14 @@
             <sys_created_by>admin</sys_created_by>
             <sys_created_on>2019-05-27 00:46:33</sys_created_on>
             <sys_id>3e48b7db4f2133000c1c4a10a310c778</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_name>otherfile</sys_name>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>その他資料</sys_name>
             <sys_package display_value="ワークフローテスト" source="x_348695_workflowt">7c64ffd34f2133000c1c4a10a310c7ab</sys_package>
             <sys_policy/>
             <sys_scope display_value="ワークフローテスト">7c64ffd34f2133000c1c4a10a310c7ab</sys_scope>
             <sys_update_name>sys_documentation_x_348695_workflowt_ringi_otherfile_ja</sys_update_name>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-05-27 00:46:33</sys_updated_on>
+            <sys_updated_on>2019-05-27 06:07:50</sys_updated_on>
             <url/>
             <url_target/>
         </sys_documentation>

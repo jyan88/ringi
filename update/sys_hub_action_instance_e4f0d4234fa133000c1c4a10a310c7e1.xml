@@ -8,20 +8,20 @@
         <compiled_snapshot/>
         <display_text/>
         <flow display_value="draftflow">3db4b31b4f2133000c1c4a10a310c726</flow>
-        <order>3</order>
+        <order>4</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-27 02:34:16</sys_created_on>
         <sys_id>e4f0d4234fa133000c1c4a10a310c7e1</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name/>
         <sys_package display_value="ワークフローテスト" source="x_348695_workflowt">7c64ffd34f2133000c1c4a10a310c7ab</sys_package>
         <sys_policy/>
         <sys_scope display_value="ワークフローテスト">7c64ffd34f2133000c1c4a10a310c7ab</sys_scope>
         <sys_update_name>sys_hub_action_instance_e4f0d4234fa133000c1c4a10a310c7e1</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-05-27 05:52:24</sys_updated_on>
+        <sys_updated_on>2019-05-27 07:26:18</sys_updated_on>
         <ui_id>f8a42a9c-5051-4929-83c3-fe2715a56e08</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e4f0d4234fa133000c1c4a10a310c7e1"/>

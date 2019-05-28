@@ -1,23 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
     <element label="ringi" max_length="40" name="x_348695_workflowt_ringi" type="collection">
         <element label="date" max_length="40" name="date" type="string"/>
-        <element label="department" max_length="40" name="department" type="string"/>
-        <element label="drafter" max_length="40" name="drafter" type="string"/>
-        <element label="draftfile" max_length="40" name="draftfile" type="file_attachment"/>
-        <element choice="3" default="社長権限稟議&#13;&#10;チーフ・オフィサー、グループ長権限稟議" label="finalist" max_length="40" name="finalist" type="string">
-            <choice/>
+        <element label="department" mandatory="true" max_length="40" name="department" type="string"/>
+        <element label="drafter" mandatory="true" max_length="40" name="drafter" type="string"/>
+        <element label="draftfile" mandatory="true" max_length="40" name="draftfile" type="file_attachment"/>
+        <element choice="1" label="finalist" mandatory="true" max_length="40" name="finalist" type="string">
+            <choice>
+                <element inactive_on_update="false" label="社長権限決済" sequence="0" value="社長権限決済"/>
+                <element inactive_on_update="false" label="チーフ・オフィサー、グループ長権限稟議" sequence="1" value="チーフ・オフィサー、グループ長権限稟議"/>
+            </choice>
         </element>
-        <element label="headquater" max_length="40" name="headquater" type="string"/>
-        <element label="issuer" max_length="40" name="issuer" type="string"/>
-        <element label="mail" max_length="300" name="mail" type="string"/>
-        <element label="notice" max_length="40" name="notice" type="string"/>
-        <element label="number" max_length="40" name="number" type="string"/>
+        <element label="headquater" mandatory="true" max_length="40" name="headquater" type="string"/>
+        <element label="issuer" mandatory="true" max_length="40" name="issuer" type="string"/>
+        <element label="mail" mandatory="true" max_length="300" name="mail" type="string"/>
+        <element label="notice" max_length="500" name="notice" type="string"/>
+        <element label="number" mandatory="true" max_length="40" name="number" type="string"/>
         <element label="organization" max_length="40" name="organization" type="string"/>
         <element label="otherfile" max_length="40" name="otherfile" type="file_attachment"/>
-        <element label="presenter" max_length="40" name="presenter" type="string"/>
-        <element label="scheduled date" max_length="40" name="scheduled_date" type="string"/>
-        <element label="tel" max_length="40" name="tel" type="string"/>
-        <element label="topic" max_length="500" name="topic" type="string"/>
-        <element label="topicname" max_length="40" name="topicname" type="string"/>
+        <element label="presenter" mandatory="true" max_length="40" name="presenter" type="string"/>
+        <element label="scheduled date" mandatory="true" max_length="40" name="scheduled_date" type="string"/>
+        <element label="tel" mandatory="true" max_length="40" name="tel" type="string"/>
+        <element label="topic" mandatory="true" max_length="500" name="topic" type="string"/>
+        <element label="topicname" mandatory="true" max_length="100" name="topicname" type="string"/>
     </element>
 </database>

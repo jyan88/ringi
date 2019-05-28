@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from>3db4b31b4f2133000c1c4a10a310c726</copied_from>
+        <copied_from_name>draftflow</copied_from_name>
+        <description/>
+        <internal_name>再度稟議申請</internal_name>
+        <label_cache>[{"name":"Created_1.current","label":"トリガー➛稟議申請 Record","reference":"x_348695_workflowt_x_348695_reringi","reference_display":"稟議申請","type":"reference","base_type":"reference"},{"name":"9e10fb28-e788-45a2-820f-c62283a3d276.email","label":"3➛メール","reference":"sys_email","reference_display":"メール","type":"reference","base_type":"reference"},{"name":"ed8f3cd3-1276-422d-9b46-3664bbdab9f3.approval_state","label":"2➛承認ステータス","reference_display":"承認ステータス","type":"choice","base_type":"choice"},{"name":"d0ee6449-c46a-41ed-9d37-bdc41e61e349.record","label":"2➛ringi Record","reference":"x_348695_workflowt_ringi","reference_display":"ringi","type":"reference","base_type":"reference"},{"name":"d0ee6449-c46a-41ed-9d37-bdc41e61e349.table_name","label":"2➛テーブル","reference_display":"テーブル","type":"table_name","base_type":"table_name"},{"name":"485042e3-df5b-42ff-a99c-bdf72a8f2bfa.record","label":"2➛稟議申請 Record","reference":"x_348695_workflowt_x_348695_reringi","reference_display":"稟議申請","type":"reference","base_type":"reference"},{"name":"485042e3-df5b-42ff-a99c-bdf72a8f2bfa.table_name","label":"2➛稟議申請 テーブル","reference":"x_348695_workflowt_x_348695_reringi","reference_display":"稟議申請","type":"table_name","base_type":"table_name"},{"name":"Created_1.run_start_time","label":"トリガー➛実行開始時間","type":"glide_date_time","base_type":"glide_date_time"},{"name":"f8a42a9c-5051-4929-83c3-fe2715a56e08.approval_state","label":"4➛承認ステータス","reference_display":"承認ステータス","type":"choice","base_type":"choice"},{"name":"Created_1.table_name","label":"トリガー➛稟議申請 テーブル","reference":"x_348695_workflowt_x_348695_reringi","reference_display":"稟議申請","type":"table_name","base_type":"table_name"},{"name":"Created_1.current.headquarter_department","label":"トリガー➛稟議申請 Record➛担当本部・部","reference":"sys_user_group","reference_display":"グループ","type":"reference","base_type":"reference","parent_table_name":"x_348695_workflowt_x_348695_reringi","column_name":"headquarter_department"},{"name":"a5fe322a-2643-47a5-a01e-149cc18df89d.approval_state","label":"4➛承認ステータス","reference_display":"承認ステータス","type":"choice","base_type":"choice"},{"name":"9e10fb28-e788-45a2-820f-c62283a3d276.email.recipients","label":"3➛メール➛受信者","reference":"","reference_display":"受信者","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"recipients"}]</label_cache>
+        <latest_snapshot>7017d1f74fa173000c1c4a10a310c7ef</latest_snapshot>
+        <master_snapshot>7017d1f74fa173000c1c4a10a310c7ef</master_snapshot>
+        <name>redraftflow</name>
+        <outputs/>
+        <remote_trigger_id>811715f74fa173000c1c4a10a310c767</remote_trigger_id>
+        <run_as>system</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>published</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-28 02:08:23</sys_created_on>
+        <sys_id>139495774fa173000c1c4a10a310c74f</sys_id>
+        <sys_mod_count>9</sys_mod_count>
+        <sys_name>redraftflow</sys_name>
+        <sys_package display_value="ワークフローテスト" source="x_348695_workflowt">7c64ffd34f2133000c1c4a10a310c7ab</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ワークフローテスト">7c64ffd34f2133000c1c4a10a310c7ab</sys_scope>
+        <sys_update_name>sys_hub_flow_139495774fa173000c1c4a10a310c74f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-28 02:19:32</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=139495774fa173000c1c4a10a310c74f"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>139495774fa173000c1c4a10a310c74f</documentkey>
+        <fieldname>annotation</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-28 02:08:23</sys_created_on>
+        <sys_id>1b9495774fa173000c1c4a10a310c74f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-28 02:08:23</sys_updated_on>
+        <tablename>sys_hub_flow</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_variable_value action="delete_multiple" query="document_key=139495774fa173000c1c4a10a310c74f"/>
+</record_update>

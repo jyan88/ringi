@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="finalist" table="x_348695_workflowt_ringi" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>finalist</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>社長権限決済</label>
+            <language>en</language>
+            <name>x_348695_workflowt_ringi</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-27 06:06:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>157141e74f6533000c1c4a10a310c727</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-27 06:06:13</sys_updated_on>
+            <value>社長権限決済</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>finalist</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>チーフ・オフィサー、グループ長権限稟議</label>
+            <language>en</language>
+            <name>x_348695_workflowt_ringi</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-27 06:06:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>957141e74f6533000c1c4a10a310c728</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-27 06:06:13</sys_updated_on>
+            <value>チーフ・オフィサー、グループ長権限稟議</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>finalist</element>
+            <name>x_348695_workflowt_ringi</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-27 06:06:13</sys_created_on>
+            <sys_id>9d7141e74f6533000c1c4a10a310c727</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>finalist</sys_name>
+            <sys_package display_value="ワークフローテスト" source="x_348695_workflowt">7c64ffd34f2133000c1c4a10a310c7ab</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ワークフローテスト">7c64ffd34f2133000c1c4a10a310c7ab</sys_scope>
+            <sys_update_name>sys_choice_x_348695_workflowt_ringi_finalist</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-27 06:06:13</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

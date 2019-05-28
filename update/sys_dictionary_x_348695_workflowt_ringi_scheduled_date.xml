@@ -33,7 +33,7 @@
         <function_definition/>
         <function_field>false</function_field>
         <internal_type display_value="文字列">string</internal_type>
-        <mandatory>false</mandatory>
+        <mandatory>true</mandatory>
         <max_length>40</max_length>
         <name>x_348695_workflowt_ringi</name>
         <next_element/>
@@ -54,14 +54,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-27 00:46:31</sys_created_on>
         <sys_id>a3f53b1b4f2133000c1c4a10a310c703</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>scheduled date</sys_name>
         <sys_package display_value="ワークフローテスト" source="x_348695_workflowt">7c64ffd34f2133000c1c4a10a310c7ab</sys_package>
         <sys_policy/>
         <sys_scope display_value="ワークフローテスト">7c64ffd34f2133000c1c4a10a310c7ab</sys_scope>
         <sys_update_name>sys_dictionary_x_348695_workflowt_ringi_scheduled_date</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-05-27 00:46:31</sys_updated_on>
+        <sys_updated_on>2019-05-27 06:04:35</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

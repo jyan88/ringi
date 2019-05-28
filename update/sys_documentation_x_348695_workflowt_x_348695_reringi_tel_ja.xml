@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="tel" label="起案者連絡先（電話）" language="ja" table="x_348695_workflowt_x_348695_reringi">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>tel</element>
+            <help/>
+            <hint/>
+            <label>起案者連絡先（電話）</label>
+            <language>ja</language>
+            <name>x_348695_workflowt_x_348695_reringi</name>
+            <plural/>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-05-28 02:04:40</sys_created_on>
+            <sys_id>f4c319374fa173000c1c4a10a310c7d5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>起案者連絡先（電話）</sys_name>
+            <sys_package display_value="ワークフローテスト" source="x_348695_workflowt">7c64ffd34f2133000c1c4a10a310c7ab</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="ワークフローテスト">7c64ffd34f2133000c1c4a10a310c7ab</sys_scope>
+            <sys_update_name>sys_documentation_x_348695_workflowt_x_348695_reringi_tel_ja</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-05-28 02:04:40</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
