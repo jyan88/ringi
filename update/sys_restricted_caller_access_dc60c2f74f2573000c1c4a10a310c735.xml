@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_restricted_caller_access">
+    <sys_restricted_caller_access action="INSERT_OR_UPDATE">
+        <operation>read</operation>
+        <source>0c653a510a0a0b8201235eb342bc50c4</source>
+        <source_scope display_value="Global">global</source_scope>
+        <source_table>sys_security_acl</source_table>
+        <source_type>11</source_type>
+        <status>0</status>
+        <sys_class_name>sys_restricted_caller_access</sys_class_name>
+        <sys_created_by>kaji</sys_created_by>
+        <sys_created_on>2019-05-28 05:19:36</sys_created_on>
+        <sys_id>dc60c2f74f2573000c1c4a10a310c735</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>global</sys_name>
+        <sys_package display_value="ワークフローテスト" source="x_348695_workflowt">7c64ffd34f2133000c1c4a10a310c7ab</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ワークフローテスト">7c64ffd34f2133000c1c4a10a310c7ab</sys_scope>
+        <sys_update_name>sys_restricted_caller_access_dc60c2f74f2573000c1c4a10a310c735</sys_update_name>
+        <sys_updated_by>kaji</sys_updated_by>
+        <sys_updated_on>2019-05-28 05:19:36</sys_updated_on>
+        <target name="x_348695_workflowt_x_348695_reringi" target_table="sys_db_object">297b813f4f6173000c1c4a10a310c71d</target>
+        <target_scope display_value="ワークフローテスト">7c64ffd34f2133000c1c4a10a310c7ab</target_scope>
+        <target_table>sys_db_object</target_table>
+        <target_type>1</target_type>
+    </sys_restricted_caller_access>
+</record_update>

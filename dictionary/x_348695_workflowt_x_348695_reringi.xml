@@ -14,7 +14,7 @@
                 <element inactive_on_update="false" label="チーフ・オフィサー、グループ長権限稟議" sequence="1" value="チーフ・オフィサー、グループ長権限稟議"/>
             </choice>
         </element>
-        <element display="true" label="稟議申請書（ドラフト版）" max_length="40" name="u_file_attachment_5" type="file_attachment"/>
+        <element label="稟議申請書（ドラフト版）" max_length="40" name="u_file_attachment_5" type="file_attachment"/>
         <element label="その他資料" max_length="40" name="u_file_attachment_6" type="file_attachment"/>
     </element>
 </database>

@@ -7,14 +7,14 @@
         <hint/>
         <name>稟議申請</name>
         <order>100</order>
-        <roles>稟議申請テストアプリケーション</roles>
+        <roles/>
         <sys_class_name>sys_app_application</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-28 01:30:38</sys_created_on>
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>12fb8dbf4f6173000c1c4a10a310c79e</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>稟議申請</sys_name>
         <sys_overrides/>
         <sys_package display_value="ワークフローテスト" source="x_348695_workflowt">7c64ffd34f2133000c1c4a10a310c7ab</sys_package>
@@ -22,7 +22,7 @@
         <sys_scope display_value="ワークフローテスト">7c64ffd34f2133000c1c4a10a310c7ab</sys_scope>
         <sys_update_name>sys_app_application_12fb8dbf4f6173000c1c4a10a310c79e</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-05-28 01:30:38</sys_updated_on>
+        <sys_updated_on>2019-05-28 04:36:20</sys_updated_on>
         <title>稟議申請</title>
         <view_name/>
     </sys_app_application>
