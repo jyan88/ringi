@@ -13,7 +13,7 @@
         <sys_update_name>sys_security_acl_role_9afb8dbf4f6173000c1c4a10a310c7b7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-05-28 01:30:38</sys_updated_on>
-        <sys_user_role display_value="稟議申請テストアプリケーション" name="稟議申請テストアプリケーション">0d515c234fa133000c1c4a10a310c7be</sys_user_role>
+        <sys_user_role display_value="x_348695_workflowt.sinsei_user" name="x_348695_workflowt.sinsei_user">0d515c234fa133000c1c4a10a310c7be</sys_user_role>
         <transaction_id/>
     </sys_security_acl_role>
 </record_update>

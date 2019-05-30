@@ -38,7 +38,7 @@
         <label>レコード</label>
         <mandatory>true</mandatory>
         <max_length>200</max_length>
-        <model display_value="&amp;#12467;&amp;#12500;&amp;#12540;&amp;#23550;&amp;#35937; draftflow">8ec3492b4fa533000c1c4a10a310c762</model>
+        <model/>
         <model_id>8ec3492b4fa533000c1c4a10a310c762</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_input_8ec3492b4fa533000c1c4a10a310c762</name>

@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sys_embedded_help_role">
     <sys_embedded_help_role action="INSERT_OR_UPDATE">
         <order>1000</order>
-        <role display_value="稟議申請テストアプリケーション" name="稟議申請テストアプリケーション">0d515c234fa133000c1c4a10a310c7be</role>
+        <role display_value="x_348695_workflowt.sinsei_user" name="x_348695_workflowt.sinsei_user">0d515c234fa133000c1c4a10a310c7be</role>
         <sys_class_name>sys_embedded_help_role</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-27 02:35:56</sys_created_on>

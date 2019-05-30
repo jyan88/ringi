@@ -8,20 +8,20 @@
         <compiled_snapshot>716281160b100300d97d8bf637673ac7</compiled_snapshot>
         <display_text/>
         <flow display_value="redraftflow">139495774fa173000c1c4a10a310c74f</flow>
-        <order>3</order>
+        <order>2</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-28 02:08:24</sys_created_on>
         <sys_id>e79495774fa173000c1c4a10a310c7de</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>20</sys_mod_count>
         <sys_name/>
         <sys_package display_value="ワークフローテスト" source="x_348695_workflowt">7c64ffd34f2133000c1c4a10a310c7ab</sys_package>
         <sys_policy/>
         <sys_scope display_value="ワークフローテスト">7c64ffd34f2133000c1c4a10a310c7ab</sys_scope>
         <sys_update_name>sys_hub_action_instance_e79495774fa173000c1c4a10a310c7de</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-05-28 02:40:21</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-28 07:29:41</sys_updated_on>
         <ui_id>9e10fb28-e788-45a2-820f-c62283a3d276</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=e79495774fa173000c1c4a10a310c7de"/>
@@ -67,6 +67,18 @@
         <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_cc</field>
+        <id>e79495774fa173000c1c4a10a310c7de</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-05-28 07:29:35</sys_created_on>
+        <sys_id>142e1e7f4f6573000c1c4a10a310c705</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-28 07:29:35</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>{{Created_1.current.sys_created_by}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>ah_subject</field>
         <id>e79495774fa173000c1c4a10a310c7de</id>
         <sys_created_by>admin</sys_created_by>
@@ -84,10 +96,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-28 02:18:07</sys_created_on>
         <sys_id>ced611f74fa173000c1c4a10a310c7a9</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-05-28 02:18:07</sys_updated_on>
+        <sys_updated_on>2019-05-28 07:29:35</sys_updated_on>
         <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
-        <value>{{Created_1.current.headquarter_department}}</value>
+        <value>{{Created_1.current.director}}</value>
     </sys_element_mapping>
 </record_update>

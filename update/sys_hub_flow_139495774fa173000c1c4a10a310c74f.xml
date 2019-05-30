@@ -2,7 +2,7 @@
     <sys_hub_flow action="INSERT_OR_UPDATE">
         <access>public</access>
         <acls/>
-        <active>true</active>
+        <active>false</active>
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
@@ -10,7 +10,7 @@
         <copied_from_name>draftflow</copied_from_name>
         <description/>
         <internal_name>再度稟議申請</internal_name>
-        <label_cache>[{"name":"Created_1.current","label":"トリガー➛稟議申請 Record","reference":"x_348695_workflowt_x_348695_reringi","reference_display":"稟議申請","type":"reference","base_type":"reference"},{"name":"9e10fb28-e788-45a2-820f-c62283a3d276.email","label":"3➛メール","reference":"sys_email","reference_display":"Email","type":"reference","base_type":"reference"},{"name":"ed8f3cd3-1276-422d-9b46-3664bbdab9f3.approval_state","label":"2➛承認ステータス","reference_display":"承認ステータス","type":"choice","base_type":"choice"},{"name":"d0ee6449-c46a-41ed-9d37-bdc41e61e349.record","label":"2➛ringi Record","reference":"x_348695_workflowt_ringi","reference_display":"ringi","type":"reference","base_type":"reference"},{"name":"d0ee6449-c46a-41ed-9d37-bdc41e61e349.table_name","label":"2➛テーブル","reference_display":"テーブル","type":"table_name","base_type":"table_name"},{"name":"485042e3-df5b-42ff-a99c-bdf72a8f2bfa.record","label":"2➛稟議申請 Record","reference":"x_348695_workflowt_x_348695_reringi","reference_display":"稟議申請","type":"reference","base_type":"reference"},{"name":"485042e3-df5b-42ff-a99c-bdf72a8f2bfa.table_name","label":"2➛稟議申請 テーブル","reference":"x_348695_workflowt_x_348695_reringi","reference_display":"稟議申請","type":"table_name","base_type":"table_name"},{"name":"Created_1.run_start_time","label":"トリガー➛実行開始時間","type":"glide_date_time","base_type":"glide_date_time"},{"name":"f8a42a9c-5051-4929-83c3-fe2715a56e08.approval_state","label":"4➛承認ステータス","reference_display":"承認ステータス","type":"choice","base_type":"choice"},{"name":"Created_1.table_name","label":"トリガー➛稟議申請 テーブル","reference":"x_348695_workflowt_x_348695_reringi","reference_display":"稟議申請","type":"table_name","base_type":"table_name"},{"name":"Created_1.current.headquarter_department","label":"トリガー➛稟議申請 Record➛担当本部・部","reference":"sys_user_group","reference_display":"Group","type":"reference","base_type":"reference","parent_table_name":"x_348695_workflowt_x_348695_reringi","column_name":"headquarter_department"},{"name":"a5fe322a-2643-47a5-a01e-149cc18df89d.approval_state","label":"4➛承認ステータス","reference_display":"承認ステータス","type":"choice","base_type":"choice"},{"name":"9e10fb28-e788-45a2-820f-c62283a3d276.email.recipients","label":"3➛メール➛受信者","reference":"","reference_display":"受信者","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"recipients"}]</label_cache>
+        <label_cache>[{"name":"485042e3-df5b-42ff-a99c-bdf72a8f2bfa.record.u_choice_3","label":"1➛稟議申請 Record➛稟議決裁者区分","reference":"","reference_display":"稟議決裁者区分","type":"string","base_type":"string","parent_table_name":"x_348695_workflowt_x_348695_reringi","column_name":"u_choice_3"},{"name":"5098a0c6-d5f4-4f8c-9f59-979de2df7ba6.Table","label":"3➛テーブル","reference_display":"テーブル","type":"table_name","base_type":"table_name"},{"name":"5098a0c6-d5f4-4f8c-9f59-979de2df7ba6.Record","label":"3➛稟議申請 Record","reference":"x_348695_workflowt_x_348695_reringi","reference_display":"稟議申請","type":"reference","base_type":"reference"},{"name":"d24d99ad-ec6e-4abe-95b0-c6c2fe376624.email","label":"4➛メール","reference":"sys_email","reference_display":"メール","type":"reference","base_type":"reference"},{"name":"Created_1.current.sys_created_by","label":"トリガー➛稟議申請 Record➛作成者","reference":"","reference_display":"作成者","type":"string","base_type":"string","parent_table_name":"x_348695_workflowt_x_348695_reringi","column_name":"sys_created_by"},{"name":"Created_1.current.director","label":"トリガー➛稟議申請 Record➛所属長 (director)","reference":"sys_user","reference_display":"ユーザー","type":"reference","base_type":"reference","parent_table_name":"x_348695_workflowt_x_348695_reringi","column_name":"director"},{"name":"9e10fb28-e788-45a2-820f-c62283a3d276.email.recipients","label":"2➛メール➛受信者","reference":"","reference_display":"受信者","type":"string","base_type":"string","parent_table_name":"sys_email","column_name":"recipients"},{"name":"a5fe322a-2643-47a5-a01e-149cc18df89d.approval_state","label":"5➛承認ステータス","reference_display":"承認ステータス","type":"choice","base_type":"choice"},{"name":"Created_1.current.headquarter_department","label":"トリガー➛稟議申請 Record➛担当本部・部","reference":"sys_user_group","reference_display":"グループ","type":"reference","base_type":"reference","parent_table_name":"x_348695_workflowt_x_348695_reringi","column_name":"headquarter_department"},{"name":"Created_1.table_name","label":"トリガー➛稟議申請 テーブル","reference":"x_348695_workflowt_x_348695_reringi","reference_display":"稟議申請","type":"table_name","base_type":"table_name"},{"name":"f8a42a9c-5051-4929-83c3-fe2715a56e08.approval_state","label":"4➛承認ステータス","reference_display":"承認ステータス","type":"choice","base_type":"choice"},{"name":"Created_1.run_start_time","label":"トリガー➛実行開始時間","type":"glide_date_time","base_type":"glide_date_time"},{"name":"485042e3-df5b-42ff-a99c-bdf72a8f2bfa.table_name","label":"1➛稟議申請 テーブル","reference":"x_348695_workflowt_x_348695_reringi","reference_display":"稟議申請","type":"table_name","base_type":"table_name"},{"name":"485042e3-df5b-42ff-a99c-bdf72a8f2bfa.record","label":"1➛稟議申請 Record","reference":"x_348695_workflowt_x_348695_reringi","reference_display":"稟議申請","type":"reference","base_type":"reference"},{"name":"d0ee6449-c46a-41ed-9d37-bdc41e61e349.table_name","label":"2➛テーブル","reference_display":"テーブル","type":"table_name","base_type":"table_name"},{"name":"d0ee6449-c46a-41ed-9d37-bdc41e61e349.record","label":"2➛ringi Record","reference":"x_348695_workflowt_ringi","reference_display":"ringi","type":"reference","base_type":"reference"},{"name":"ed8f3cd3-1276-422d-9b46-3664bbdab9f3.approval_state","label":"2➛承認ステータス","reference_display":"承認ステータス","type":"choice","base_type":"choice"},{"name":"9e10fb28-e788-45a2-820f-c62283a3d276.email","label":"2➛メール","reference":"sys_email","reference_display":"メール","type":"reference","base_type":"reference"},{"name":"Created_1.current","label":"トリガー➛稟議申請 Record","reference":"x_348695_workflowt_x_348695_reringi","reference_display":"稟議申請","type":"reference","base_type":"reference"}]</label_cache>
         <latest_snapshot>4febddbb4fa173000c1c4a10a310c7a8</latest_snapshot>
         <master_snapshot>7017d1f74fa173000c1c4a10a310c7ef</master_snapshot>
         <name>redraftflow</name>
@@ -20,19 +20,19 @@
         <sc_callable>false</sc_callable>
         <show_draft_actions>false</show_draft_actions>
         <show_triggered_flows>false</show_triggered_flows>
-        <status>published</status>
+        <status>draft</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-28 02:08:23</sys_created_on>
         <sys_id>139495774fa173000c1c4a10a310c74f</sys_id>
-        <sys_mod_count>10</sys_mod_count>
+        <sys_mod_count>14</sys_mod_count>
         <sys_name>redraftflow</sys_name>
         <sys_package display_value="ワークフローテスト" source="x_348695_workflowt">7c64ffd34f2133000c1c4a10a310c7ab</sys_package>
         <sys_policy/>
         <sys_scope display_value="ワークフローテスト">7c64ffd34f2133000c1c4a10a310c7ab</sys_scope>
         <sys_update_name>sys_hub_flow_139495774fa173000c1c4a10a310c74f</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-05-28 02:40:20</sys_updated_on>
+        <sys_updated_by>kaji</sys_updated_by>
+        <sys_updated_on>2019-05-28 08:21:09</sys_updated_on>
         <type>flow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=139495774fa173000c1c4a10a310c74f"/>

@@ -8,20 +8,20 @@
         <compiled_snapshot>f8f2e9920b10030085c083eb37673abd</compiled_snapshot>
         <display_text/>
         <flow display_value="redraftflow">139495774fa173000c1c4a10a310c74f</flow>
-        <order>4</order>
+        <order>5</order>
         <parent_ui_id/>
         <sys_class_name>sys_hub_action_instance</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-28 02:18:08</sys_created_on>
         <sys_id>8ad611f74fa173000c1c4a10a310c7ae</sys_id>
-        <sys_mod_count>12</sys_mod_count>
+        <sys_mod_count>18</sys_mod_count>
         <sys_name/>
         <sys_package display_value="ワークフローテスト" source="x_348695_workflowt">7c64ffd34f2133000c1c4a10a310c7ab</sys_package>
         <sys_policy/>
         <sys_scope display_value="ワークフローテスト">7c64ffd34f2133000c1c4a10a310c7ab</sys_scope>
         <sys_update_name>sys_hub_action_instance_8ad611f74fa173000c1c4a10a310c7ae</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-05-28 02:40:21</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-05-28 07:29:41</sys_updated_on>
         <ui_id>a5fe322a-2643-47a5-a01e-149cc18df89d</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=8ad611f74fa173000c1c4a10a310c7ae"/>
@@ -75,10 +75,10 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-28 02:19:08</sys_created_on>
         <sys_id>f817d1f74fa173000c1c4a10a310c7dd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-05-28 02:19:08</sys_updated_on>
-        <value>ApprovesAnyOrRejectsAny</value>
+        <sys_updated_on>2019-05-28 07:29:36</sys_updated_on>
+        <value>Approves</value>
         <variable display_value="">45f2e9920b10030085c083eb37673aee</variable>
     </sys_variable_value>
     <sys_element_mapping action="delete_multiple" query="id=8ad611f74fa173000c1c4a10a310c7ae"/>
@@ -136,11 +136,11 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-28 02:19:08</sys_created_on>
         <sys_id>3017d1f74fa173000c1c4a10a310c7dd</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-05-28 02:19:08</sys_updated_on>
+        <sys_updated_on>2019-05-28 07:29:36</sys_updated_on>
         <table>var__m_sys_hub_action_input_f8f2e9920b10030085c083eb37673abd</table>
-        <value>{{9e10fb28-e788-45a2-820f-c62283a3d276.email.recipients}}</value>
+        <value/>
     </sys_element_mapping>
     <sys_element_mapping action="INSERT_OR_UPDATE">
         <field>record</field>
