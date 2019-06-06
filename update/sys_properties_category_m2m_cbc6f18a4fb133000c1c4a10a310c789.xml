@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category_m2m">
+    <sys_properties_category_m2m action="INSERT_OR_UPDATE">
+        <category display_value="システム">889431970a0a0b5000dbc98cfb77cf4a</category>
+        <order>300</order>
+        <property display_value="x_348695_workflowt.稟議申請プロパティ" name="x_348695_workflowt.稟議申請プロパティ">7336794a4fb133000c1c4a10a310c751</property>
+        <sys_class_name>sys_properties_category_m2m</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-04 04:24:04</sys_created_on>
+        <sys_id>cbc6f18a4fb133000c1c4a10a310c789</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_348695_workflowt.稟議申請プロパティ.システム</sys_name>
+        <sys_package display_value="ワークフローテスト" source="x_348695_workflowt">7c64ffd34f2133000c1c4a10a310c7ab</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ワークフローテスト">7c64ffd34f2133000c1c4a10a310c7ab</sys_scope>
+        <sys_update_name>sys_properties_category_m2m_cbc6f18a4fb133000c1c4a10a310c789</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-04 04:24:04</sys_updated_on>
+    </sys_properties_category_m2m>
+</record_update>

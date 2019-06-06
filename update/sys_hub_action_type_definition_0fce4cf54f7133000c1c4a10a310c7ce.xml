@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_type_definition">
+    <sys_hub_action_type_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>true</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category display_value="software asset management">f97e08b94f7133000c1c4a10a310c74a</category>
+        <copied_from/>
+        <copied_from_name/>
+        <description>Determines if software rights are available for te specified soft ware title and returns true or false.</description>
+        <internal_name>check_for_available_rights</internal_name>
+        <label_cache>[{"name":"{{step[2fa61342-879e-4a95-bbdf-22c1fa281a4d].task}}","label":"step➛タスクの作成 step➛稟議申請 レコード","type":"step","ref":"x_348695_workflowt_x_348695_reringi"},{"name":"{{step[2fa61342-879e-4a95-bbdf-22c1fa281a4d].task.opened_by.manager}}","label":"step➛タスクの作成 step➛稟議申請 レコード➛発行者➛マネージャー","type":"step","ref":"sys_user"}]</label_cache>
+        <latest_snapshot>8df0143d4f7133000c1c4a10a310c740</latest_snapshot>
+        <master_snapshot>d5f0143d4f7133000c1c4a10a310c753</master_snapshot>
+        <name>check for available rights</name>
+        <outputs/>
+        <state>published</state>
+        <sys_class_name>sys_hub_action_type_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-03 02:11:12</sys_created_on>
+        <sys_id>0fce4cf54f7133000c1c4a10a310c7ce</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>check for available rights</sys_name>
+        <sys_package display_value="ワークフローテスト" source="x_348695_workflowt">7c64ffd34f2133000c1c4a10a310c7ab</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ワークフローテスト">7c64ffd34f2133000c1c4a10a310c7ab</sys_scope>
+        <sys_update_name>sys_hub_action_type_definition_0fce4cf54f7133000c1c4a10a310c7ce</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-03 02:20:39</sys_updated_on>
+        <system_level>false</system_level>
+        <type/>
+    </sys_hub_action_type_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=0fce4cf54f7133000c1c4a10a310c7ce"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>0fce4cf54f7133000c1c4a10a310c7ce</documentkey>
+        <fieldname>annotation</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-03 02:11:12</sys_created_on>
+        <sys_id>4fce4cf54f7133000c1c4a10a310c7d1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-03 02:11:12</sys_updated_on>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>0fce4cf54f7133000c1c4a10a310c7ce</documentkey>
+        <fieldname>description</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-03 02:11:12</sys_created_on>
+        <sys_id>87ce4cf54f7133000c1c4a10a310c7cf</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-03 02:11:12</sys_updated_on>
+        <tablename>sys_hub_action_type_definition</tablename>
+        <value>Determines if software rights are available for te specified soft ware title and returns true or false.</value>
+    </sys_translated_text>
+    <sys_variable_value action="delete_multiple" query="document_key=0fce4cf54f7133000c1c4a10a310c7ce"/>
+</record_update>

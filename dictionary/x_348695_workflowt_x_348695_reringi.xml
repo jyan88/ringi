@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element extends="task" label="稟議申請" max_length="40" name="x_348695_workflowt_x_348695_reringi" sizeclass="5" type="collection">
+    <element attributes="live_feed=true" audit="true" extends="task" label="稟議申請" max_length="40" name="x_348695_workflowt_x_348695_reringi" sizeclass="8" type="collection">
         <element label="所属長" mandatory="true" max_length="32" name="director" reference="sys_user" type="reference"/>
         <element label="起案者" mandatory="true" max_length="32" name="drafter" reference="sys_user" type="reference"/>
         <element label="起案者所属部署" mandatory="true" max_length="32" name="drafters_department" reference="sys_user_group" type="reference"/>
@@ -18,5 +18,26 @@
         </element>
         <element label="稟議申請書（ドラフト版）" max_length="40" name="u_file_attachment_5" type="file_attachment"/>
         <element label="その他資料" max_length="40" name="u_file_attachment_6" type="file_attachment"/>
+        <element choice="3" default="東アジア" label="地域" max_length="40" name="地域" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="中央アジア"/>
+                <element inactive_on_update="false" label="南アジア"/>
+                <element inactive_on_update="false" label="東アジア"/>
+                <element inactive_on_update="false" label="東南アジア"/>
+                <element inactive_on_update="false" label="西アジア"/>
+            </choice>
+        </element>
+        <element choice="3" default="日本" display="true" label="東アジア" max_length="40" name="東アジア" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="マカオ"/>
+                <element inactive_on_update="false" label="モンゴル"/>
+                <element inactive_on_update="false" label="中華人民共和国"/>
+                <element inactive_on_update="false" label="中華民国（台湾）"/>
+                <element inactive_on_update="false" label="北朝鮮"/>
+                <element inactive_on_update="false" label="日本"/>
+                <element inactive_on_update="false" label="韓国"/>
+                <element inactive_on_update="false" label="香港"/>
+            </choice>
+        </element>
     </element>
 </database>

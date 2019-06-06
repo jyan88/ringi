@@ -12,7 +12,7 @@
         <extension_model/>
         <is_extendable>true</is_extendable>
         <label>稟議申請</label>
-        <live_feed_enabled>false</live_feed_enabled>
+        <live_feed_enabled>true</live_feed_enabled>
         <name>x_348695_workflowt_x_348695_reringi</name>
         <number_ref display_value="稟議申">62fb8dbf4f6173000c1c4a10a310c7ef</number_ref>
         <provider_class/>
@@ -24,14 +24,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-28 01:30:38</sys_created_on>
         <sys_id>297b813f4f6173000c1c4a10a310c71d</sys_id>
-        <sys_mod_count>2</sys_mod_count>
+        <sys_mod_count>3</sys_mod_count>
         <sys_name>稟議申請</sys_name>
         <sys_package display_value="ワークフローテスト" source="x_348695_workflowt">7c64ffd34f2133000c1c4a10a310c7ab</sys_package>
         <sys_policy/>
         <sys_scope display_value="ワークフローテスト">7c64ffd34f2133000c1c4a10a310c7ab</sys_scope>
         <sys_update_name>sys_db_object_297b813f4f6173000c1c4a10a310c71d</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-05-30 04:21:20</sys_updated_on>
+        <sys_updated_on>2019-06-03 00:53:38</sys_updated_on>
         <update_access>true</update_access>
         <user_role display_value="x_348695_workflowt.sinsei_user" name="x_348695_workflowt.sinsei_user">0d515c234fa133000c1c4a10a310c7be</user_role>
         <ws_access>true</ws_access>

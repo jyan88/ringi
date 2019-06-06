@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">98c181d20b100300d97d8bf637673ab5</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="branch test">cfaf40e44ffdb3000c1c4a10a310c7a4</flow>
+        <order>1.1</order>
+        <parent_ui_id>3baf9746-a4ef-47d8-8219-3aea4e043107</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-04 02:21:19</sys_created_on>
+        <sys_id>81baddc24f7133000c1c4a10a310c7de</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ワークフローテスト" source="x_348695_workflowt">7c64ffd34f2133000c1c4a10a310c7ab</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ワークフローテスト">7c64ffd34f2133000c1c4a10a310c7ab</sys_scope>
+        <sys_update_name>sys_hub_action_instance_81baddc24f7133000c1c4a10a310c7de</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-04 02:21:19</sys_updated_on>
+        <ui_id>5d1fc15f-493f-4048-a84b-d0f226e54e76</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=81baddc24f7133000c1c4a10a310c7de"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>81baddc24f7133000c1c4a10a310c7de</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-04 02:21:19</sys_created_on>
+        <sys_id>85baddc24f7133000c1c4a10a310c7f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-04 02:21:19</sys_updated_on>
+        <value>　申請通知</value>
+        <variable display_value="">b21241160b100300d97d8bf637673a4a</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=81baddc24f7133000c1c4a10a310c7de"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>81baddc24f7133000c1c4a10a310c7de</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-04 02:21:19</sys_created_on>
+        <sys_id>05baddc24f7133000c1c4a10a310c7f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-04 02:21:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>81baddc24f7133000c1c4a10a310c7de</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-04 02:21:19</sys_created_on>
+        <sys_id>c9baddc24f7133000c1c4a10a310c7f0</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-04 02:21:19</sys_updated_on>
+        <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
+        <value>{{Created_1.current.opened_by.manager}}</value>
+    </sys_element_mapping>
+</record_update>

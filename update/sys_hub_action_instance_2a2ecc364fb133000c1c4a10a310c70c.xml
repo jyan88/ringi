@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_action_instance">
+    <sys_hub_action_instance action="INSERT_OR_UPDATE">
+        <action_inputs/>
+        <action_inputs/>
+        <action_type display_value="Send Email">716281160b100300d97d8bf637673ac7</action_type>
+        <action_type_parent/>
+        <comment/>
+        <compiled_snapshot/>
+        <display_text/>
+        <flow display_value="Parallel approval">513c3a164f3173000c1c4a10a310c7b7</flow>
+        <order>1.2</order>
+        <parent_ui_id>770d91d2-4013-4af6-880c-d2b296cd11d8</parent_ui_id>
+        <sys_class_name>sys_hub_action_instance</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-06 04:42:22</sys_created_on>
+        <sys_id>2a2ecc364fb133000c1c4a10a310c70c</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ワークフローテスト" source="x_348695_workflowt">7c64ffd34f2133000c1c4a10a310c7ab</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ワークフローテスト">7c64ffd34f2133000c1c4a10a310c7ab</sys_scope>
+        <sys_update_name>sys_hub_action_instance_2a2ecc364fb133000c1c4a10a310c70c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-06 05:22:35</sys_updated_on>
+        <ui_id>f256e679-e9f0-46e2-94fb-0c2026fba8b7</ui_id>
+    </sys_hub_action_instance>
+    <sys_variable_value action="delete_multiple" query="document_key=2a2ecc364fb133000c1c4a10a310c70c"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2a2ecc364fb133000c1c4a10a310c70c</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-06 04:42:22</sys_created_on>
+        <sys_id>262ecc364fb133000c1c4a10a310c712</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-06 04:42:22</sys_updated_on>
+        <value>　全管理者に承認されました</value>
+        <variable display_value="">b21241160b100300d97d8bf637673a4a</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_action_instance</document>
+        <document_key>2a2ecc364fb133000c1c4a10a310c70c</document_key>
+        <order>3</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-06 05:22:30</sys_created_on>
+        <sys_id>e25710fa4fb133000c1c4a10a310c717</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-06 05:22:30</sys_updated_on>
+        <value>　全管理者に承認されました</value>
+        <variable display_value="">0a62c1160b100300d97d8bf637673a05</variable>
+    </sys_variable_value>
+    <sys_element_mapping action="delete_multiple" query="id=2a2ecc364fb133000c1c4a10a310c70c"/>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>2a2ecc364fb133000c1c4a10a310c70c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-06 05:22:30</sys_created_on>
+        <sys_id>625710fa4fb133000c1c4a10a310c717</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-06 05:22:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_subject</field>
+        <id>2a2ecc364fb133000c1c4a10a310c70c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-06 04:42:22</sys_created_on>
+        <sys_id>a22ecc364fb133000c1c4a10a310c712</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-06 04:42:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
+        <value/>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>2a2ecc364fb133000c1c4a10a310c70c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-06 05:22:30</sys_created_on>
+        <sys_id>ae5710fa4fb133000c1c4a10a310c716</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-06 05:22:30</sys_updated_on>
+        <table>var__m_sys_hub_action_input_716281160b100300d97d8bf637673ac7</table>
+        <value>{{Created_1.current.opened_by}}</value>
+    </sys_element_mapping>
+    <sys_element_mapping action="INSERT_OR_UPDATE">
+        <field>ah_to</field>
+        <id>2a2ecc364fb133000c1c4a10a310c70c</id>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-06 04:42:22</sys_created_on>
+        <sys_id>ee2ecc364fb133000c1c4a10a310c711</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-06 04:42:22</sys_updated_on>
+        <table>var__m_sys_hub_action_input_98c181d20b100300d97d8bf637673ab5</table>
+        <value>{{Created_1.current.opened_by}}</value>
+    </sys_element_mapping>
+</record_update>

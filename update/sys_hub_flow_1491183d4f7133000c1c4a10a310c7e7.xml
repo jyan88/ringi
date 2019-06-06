@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow">
+    <sys_hub_flow action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <acls/>
+        <active>false</active>
+        <annotation/>
+        <callable_by_client_api>false</callable_by_client_api>
+        <category/>
+        <copied_from/>
+        <copied_from_name/>
+        <description>&amp;#12450;&amp;#12463;&amp;#12471;&amp;#12519;&amp;#12531;&amp;#12434;&amp;#20351;&amp;#12387;&amp;#12390;&amp;#12501;&amp;#12525;&amp;#12540;&amp;#20316;&amp;#25104;</description>
+        <internal_name>アクション使用テスト</internal_name>
+        <label_cache>null</label_cache>
+        <latest_snapshot/>
+        <master_snapshot/>
+        <name>&amp;#12450;&amp;#12463;&amp;#12471;&amp;#12519;&amp;#12531;&amp;#20351;&amp;#29992;&amp;#12486;&amp;#12473;&amp;#12488;</name>
+        <outputs/>
+        <remote_trigger_id/>
+        <run_as>user</run_as>
+        <sc_callable>false</sc_callable>
+        <show_draft_actions>false</show_draft_actions>
+        <show_triggered_flows>false</show_triggered_flows>
+        <status>draft</status>
+        <sys_class_name>sys_hub_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-03 02:23:18</sys_created_on>
+        <sys_id>1491183d4f7133000c1c4a10a310c7e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>&amp;#12450;&amp;#12463;&amp;#12471;&amp;#12519;&amp;#12531;&amp;#20351;&amp;#29992;&amp;#12486;&amp;#12473;&amp;#12488;</sys_name>
+        <sys_package display_value="ワークフローテスト" source="x_348695_workflowt">7c64ffd34f2133000c1c4a10a310c7ab</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ワークフローテスト">7c64ffd34f2133000c1c4a10a310c7ab</sys_scope>
+        <sys_update_name>sys_hub_flow_1491183d4f7133000c1c4a10a310c7e7</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-03 02:23:18</sys_updated_on>
+        <type>flow</type>
+    </sys_hub_flow>
+    <sys_translated_text action="delete_multiple" query="documentkey=1491183d4f7133000c1c4a10a310c7e7"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>1491183d4f7133000c1c4a10a310c7e7</documentkey>
+        <fieldname>annotation</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-03 02:23:19</sys_created_on>
+        <sys_id>1c91183d4f7133000c1c4a10a310c7e7</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-03 02:23:19</sys_updated_on>
+        <tablename>sys_hub_flow</tablename>
+        <value/>
+    </sys_translated_text>
+    <sys_variable_value action="delete_multiple" query="document_key=1491183d4f7133000c1c4a10a310c7e7"/>
+</record_update>

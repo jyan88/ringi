@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_properties_category">
+    <sys_properties_category action="INSERT_OR_UPDATE">
+        <name>稟議申請プロパティ</name>
+        <sys_class_name>sys_properties_category</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-05 04:49:19</sys_created_on>
+        <sys_id>18064b1e4f3173000c1c4a10a310c79b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>稟議申請プロパティ</sys_name>
+        <sys_package display_value="ワークフローテスト" source="x_348695_workflowt">7c64ffd34f2133000c1c4a10a310c7ab</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ワークフローテスト">7c64ffd34f2133000c1c4a10a310c7ab</sys_scope>
+        <sys_update_name>sys_properties_category_18064b1e4f3173000c1c4a10a310c79b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-05 04:49:19</sys_updated_on>
+        <title><![CDATA[<p>稟議申請のプロパティです</p>]]></title>
+    </sys_properties_category>
+    <sys_translated_text action="delete_multiple" query="documentkey=18064b1e4f3173000c1c4a10a310c79b"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>18064b1e4f3173000c1c4a10a310c79b</documentkey>
+        <fieldname>name</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-05 04:49:19</sys_created_on>
+        <sys_id>32260b1e4f3173000c1c4a10a310c7ee</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-05 04:49:19</sys_updated_on>
+        <tablename>sys_properties_category</tablename>
+        <value>稟議申請プロパティ</value>
+    </sys_translated_text>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>18064b1e4f3173000c1c4a10a310c79b</documentkey>
+        <fieldname>title</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-05 04:49:19</sys_created_on>
+        <sys_id>72260b1e4f3173000c1c4a10a310c7ec</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-05 04:49:19</sys_updated_on>
+        <tablename>sys_properties_category</tablename>
+        <value>&lt;p&gt;稟議申請のプロパティです&lt;/p&gt;</value>
+    </sys_translated_text>
+</record_update>
