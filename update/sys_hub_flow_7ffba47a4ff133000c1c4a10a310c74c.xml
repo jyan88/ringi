@@ -8,12 +8,12 @@
         <category/>
         <copied_from/>
         <copied_from_name/>
-        <description>&amp;#12450;&amp;#12463;&amp;#12471;&amp;#12519;&amp;#12531;&amp;#12434;&amp;#20351;&amp;#12387;&amp;#12390;&amp;#12501;&amp;#12525;&amp;#12540;&amp;#20316;&amp;#25104;</description>
-        <internal_name>アクション使用テスト</internal_name>
+        <description>&amp;#22238;&amp;#35696;&amp;#32773;&amp;#12395;&amp;#37197;&amp;#24067;&amp;#12375;&amp;#12414;&amp;#12377;</description>
+        <internal_name>kaigihaihu</internal_name>
         <label_cache>null</label_cache>
         <latest_snapshot/>
         <master_snapshot/>
-        <name>&amp;#12450;&amp;#12463;&amp;#12471;&amp;#12519;&amp;#12531;&amp;#20351;&amp;#29992;&amp;#12486;&amp;#12473;&amp;#12488;</name>
+        <name>kaigihaihu</name>
         <outputs/>
         <remote_trigger_id/>
         <run_as>user</run_as>
@@ -23,31 +23,31 @@
         <status>draft</status>
         <sys_class_name>sys_hub_flow</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-06-03 02:23:18</sys_created_on>
-        <sys_id>1491183d4f7133000c1c4a10a310c7e7</sys_id>
+        <sys_created_on>2019-06-06 06:52:43</sys_created_on>
+        <sys_id>7ffba47a4ff133000c1c4a10a310c74c</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name>&amp;#12450;&amp;#12463;&amp;#12471;&amp;#12519;&amp;#12531;&amp;#20351;&amp;#29992;&amp;#12486;&amp;#12473;&amp;#12488;</sys_name>
+        <sys_name>kaigihaihu</sys_name>
         <sys_package display_value="ワークフローテスト" source="x_348695_workflowt">7c64ffd34f2133000c1c4a10a310c7ab</sys_package>
         <sys_policy/>
         <sys_scope display_value="ワークフローテスト">7c64ffd34f2133000c1c4a10a310c7ab</sys_scope>
-        <sys_update_name>sys_hub_flow_1491183d4f7133000c1c4a10a310c7e7</sys_update_name>
+        <sys_update_name>sys_hub_flow_7ffba47a4ff133000c1c4a10a310c74c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-03 02:23:18</sys_updated_on>
-        <type>flow</type>
+        <sys_updated_on>2019-06-06 06:52:43</sys_updated_on>
+        <type>subflow</type>
     </sys_hub_flow>
-    <sys_translated_text action="delete_multiple" query="documentkey=1491183d4f7133000c1c4a10a310c7e7"/>
+    <sys_translated_text action="delete_multiple" query="documentkey=7ffba47a4ff133000c1c4a10a310c74c"/>
     <sys_translated_text action="INSERT_OR_UPDATE">
-        <documentkey>1491183d4f7133000c1c4a10a310c7e7</documentkey>
+        <documentkey>7ffba47a4ff133000c1c4a10a310c74c</documentkey>
         <fieldname>annotation</fieldname>
         <language>ja</language>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-06-03 02:23:19</sys_created_on>
-        <sys_id>1c91183d4f7133000c1c4a10a310c7e7</sys_id>
+        <sys_created_on>2019-06-06 06:52:43</sys_created_on>
+        <sys_id>73fba47a4ff133000c1c4a10a310c74d</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-03 02:23:19</sys_updated_on>
+        <sys_updated_on>2019-06-06 06:52:43</sys_updated_on>
         <tablename>sys_hub_flow</tablename>
         <value/>
     </sys_translated_text>
-    <sys_variable_value action="delete_multiple" query="document_key=1491183d4f7133000c1c4a10a310c7e7"/>
+    <sys_variable_value action="delete_multiple" query="document_key=7ffba47a4ff133000c1c4a10a310c74c"/>
 </record_update>

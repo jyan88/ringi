@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_hub_flow_logic">
+    <sys_hub_flow_logic action="INSERT_OR_UPDATE">
+        <block display_value="">39a48cbe4f7133000c1c4a10a310c714</block>
+        <comment/>
+        <connected_to/>
+        <decision_table/>
+        <decision_table_inputs/>
+        <display_text/>
+        <flow display_value="copy Parallel approval">f6692c3a4ff133000c1c4a10a310c702</flow>
+        <inputs/>
+        <logic_definition display_value="決定">b1f542d673331300612c273ffff6a7c7</logic_definition>
+        <order>4.1.2</order>
+        <outputs_assigned/>
+        <outputs_to_assign/>
+        <parent_ui_id>3da08131-2801-400d-a946-82efe64eafd7</parent_ui_id>
+        <sys_class_name>sys_hub_flow_logic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-06 06:41:27</sys_created_on>
+        <sys_id>fe692c3a4ff133000c1c4a10a310c720</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ワークフローテスト" source="x_348695_workflowt">7c64ffd34f2133000c1c4a10a310c7ab</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ワークフローテスト">7c64ffd34f2133000c1c4a10a310c7ab</sys_scope>
+        <sys_update_name>sys_hub_flow_logic_fe692c3a4ff133000c1c4a10a310c720</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-06 06:47:53</sys_updated_on>
+        <ui_id>2f88381d-15c5-4c29-8817-2f121dc31f6e</ui_id>
+        <workflow_inputs/>
+        <workflow_reference/>
+    </sys_hub_flow_logic>
+    <sys_variable_value action="delete_multiple" query="document_key=fe692c3a4ff133000c1c4a10a310c720"/>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>fe692c3a4ff133000c1c4a10a310c720</document_key>
+        <order>100</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-06 06:41:27</sys_created_on>
+        <sys_id>3e692c3a4ff133000c1c4a10a310c724</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-06 06:41:27</sys_updated_on>
+        <value>　回議権限Gマネージャー</value>
+        <variable display_value="">0a99f06e73402300612c273ffff6a771</variable>
+    </sys_variable_value>
+    <sys_variable_value action="INSERT_OR_UPDATE">
+        <document>sys_hub_flow_logic</document>
+        <document_key>fe692c3a4ff133000c1c4a10a310c720</document_key>
+        <order>200</order>
+        <sys_class_name>sys_variable_value</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-06 06:41:27</sys_created_on>
+        <sys_id>7a692c3a4ff133000c1c4a10a310c724</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-06 06:41:27</sys_updated_on>
+        <value>4be5aca7b701230034d1da23ee11a92d</value>
+        <variable display_value="">70ef385873002300612c273ffff6a764</variable>
+    </sys_variable_value>
+</record_update>

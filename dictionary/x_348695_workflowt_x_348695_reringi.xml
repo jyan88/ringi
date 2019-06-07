@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="live_feed=true" audit="true" extends="task" label="稟議申請" max_length="40" name="x_348695_workflowt_x_348695_reringi" sizeclass="8" type="collection">
+    <element attributes="live_feed=true" audit="true" extends="task" label="稟議申請" max_length="40" name="x_348695_workflowt_x_348695_reringi" sizeclass="10" type="collection">
         <element label="所属長" mandatory="true" max_length="32" name="director" reference="sys_user" type="reference"/>
         <element label="起案者" mandatory="true" max_length="32" name="drafter" reference="sys_user" type="reference"/>
         <element label="起案者所属部署" mandatory="true" max_length="32" name="drafters_department" reference="sys_user_group" type="reference"/>
