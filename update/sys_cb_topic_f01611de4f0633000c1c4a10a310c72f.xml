@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <connect_queue/>
+        <description>あいさつを返すだけ</description>
+        <graph>{
+  "graph_api_version": "1.0.10",
+  "goals": {
+    "94307fe87c34400bbc33ac3e09db25eb": {
+      "id": "94307fe87c34400bbc33ac3e09db25eb",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "12ba6c60412343c09e67b55ceb36bdf4": {
+          "id": "12ba6c60412343c09e67b55ceb36bdf4",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "57908723b8a7437c9636c6591c4b5d8f": {
+          "id": "57908723b8a7437c9636c6591c4b5d8f",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "f7aa9a52b01940cda41208a84eb87553": {
+          "id": "f7aa9a52b01940cda41208a84eb87553",
+          "stepType": "TextOutput",
+          "name": "返答",
+          "value": {
+            "value": "(function execute() {\n    /* Return a quoted string.  For example:\n\n       var result;\n       if (vaInputs.first_name == 'Bill') {\n           return gs.getMessage('hi there {0}', [vaInputs.first_name]);\n       } else {\n           return gs.getMessage('how are you {0}', [vaInputs.last_name]);\n       }\n    */\n    return 'おはこんばんにちは！';\n})()\n",
+            "mode": "script"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "880671cbf4734ee5bbe9701428a86f51",
+          "edgeType": "Edge",
+          "source": "12ba6c60412343c09e67b55ceb36bdf4",
+          "target": "f7aa9a52b01940cda41208a84eb87553",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "e4d2edd0f69242c38eef65e8f9ad2df8",
+          "edgeType": "Edge",
+          "source": "f7aa9a52b01940cda41208a84eb87553",
+          "target": "57908723b8a7437c9636c6591c4b5d8f",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "variables": {
+    "06a23d496e674fcdad07c21faec7c579": {
+      "id": "06a23d496e674fcdad07c21faec7c579",
+      "name": "LiveAgent_csm_queue",
+      "value": {
+        "mode": "simple",
+        "value": "f4d701b1b3900300f7d1a13816a8dc8e"
+      },
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "324d1058a3094997bc43a0a2d8ce5b05": {
+      "id": "324d1058a3094997bc43a0a2d8ce5b05",
+      "name": "LiveAgent_hr_queue",
+      "value": {
+        "mode": "simple",
+        "value": "f4d701b1b3900300f7d1a13816a8dc8e"
+      },
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "9ffde0de7e374c30bbafe23510753cb6": {
+      "id": "9ffde0de7e374c30bbafe23510753cb6",
+      "name": "LiveAgent_itsm_queue",
+      "value": {
+        "mode": "simple",
+        "value": "f4d701b1b3900300f7d1a13816a8dc8e"
+      },
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "54d23678077d417b8d89d4a191abfcb3": {
+      "id": "54d23678077d417b8d89d4a191abfcb3",
+      "name": "LiveAgent_global_queue",
+      "value": {
+        "mode": "simple",
+        "value": "f4d701b1b3900300f7d1a13816a8dc8e"
+      },
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "bb00613f43454a6f9d246aca0a52297d": {
+      "id": "bb00613f43454a6f9d246aca0a52297d",
+      "name": "LiveAgent_short_description",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "8e543cbd78684fee83be85bd95bea1d3": {
+      "id": "8e543cbd78684fee83be85bd95bea1d3",
+      "name": "LiveAgent_application",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "b112578b6d574d5e823dfa426a786bba": {
+      "id": "b112578b6d574d5e823dfa426a786bba",
+      "name": "LiveAgent_queue",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    },
+    "281077eb875444b68150b2c9b9e729d4": {
+      "id": "281077eb875444b68150b2c9b9e729d4",
+      "name": "LiveAgent_mandatory_skills",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "64a9b6e92b9c4dcfac53d81cc9f428a5": {
+      "id": "64a9b6e92b9c4dcfac53d81cc9f428a5",
+      "name": "LiveAgent_optional_skills",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "24892f09a12a42a2bbfbefb6667952ae": {
+      "id": "24892f09a12a42a2bbfbefb6667952ae",
+      "name": "LiveAgent_case",
+      "value": {
+        "mode": "simple",
+        "value": ""
+      },
+      "varType": "script",
+      "category": "vaVars"
+    }
+  }
+}</graph>
+        <key_phrases>あいさつ,こんにちは！,こんにちは,おはよう,おはようございます,こんばんは,こんばんは！,おはこんばんにちは</key_phrases>
+        <live_agent>false</live_agent>
+        <name>あいさつ</name>
+        <roles/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-17 06:55:17</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>f01611de4f0633000c1c4a10a310c72f</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>あいさつ</sys_name>
+        <sys_package display_value="ワークフローテスト" source="x_348695_workflowt">7c64ffd34f2133000c1c4a10a310c7ab</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ワークフローテスト">7c64ffd34f2133000c1c4a10a310c7ab</sys_scope>
+        <sys_update_name>sys_cb_topic_f01611de4f0633000c1c4a10a310c72f</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-18 06:44:59</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=f01611de4f0633000c1c4a10a310c72f"/>
+</record_update>

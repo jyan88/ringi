@@ -14,14 +14,14 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-06-06 08:12:51</sys_created_on>
         <sys_id>b15e34f64f3533000c1c4a10a310c737</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>12</sys_mod_count>
         <sys_name/>
         <sys_package display_value="ワークフローテスト" source="x_348695_workflowt">7c64ffd34f2133000c1c4a10a310c7ab</sys_package>
         <sys_policy/>
         <sys_scope display_value="ワークフローテスト">7c64ffd34f2133000c1c4a10a310c7ab</sys_scope>
         <sys_update_name>sys_hub_action_instance_b15e34f64f3533000c1c4a10a310c737</sys_update_name>
-        <sys_updated_by>system</sys_updated_by>
-        <sys_updated_on>2019-06-06 08:25:18</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-07 04:56:50</sys_updated_on>
         <ui_id>e44e6513-fdf7-4787-bcc3-358754ec2c1e</ui_id>
     </sys_hub_action_instance>
     <sys_variable_value action="delete_multiple" query="document_key=b15e34f64f3533000c1c4a10a310c737"/>

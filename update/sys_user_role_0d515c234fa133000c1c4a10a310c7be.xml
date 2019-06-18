@@ -3,7 +3,7 @@
         <assignable_by/>
         <can_delegate>true</can_delegate>
         <description>稟議申請のロール</description>
-        <elevated_privilege>true</elevated_privilege>
+        <elevated_privilege>false</elevated_privilege>
         <grantable>true</grantable>
         <includes_roles/>
         <name>x_348695_workflowt.sinsei_user</name>
@@ -14,13 +14,13 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-05-27 02:35:56</sys_created_on>
         <sys_id>0d515c234fa133000c1c4a10a310c7be</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>x_348695_workflowt.sinsei_user</sys_name>
         <sys_package display_value="ワークフローテスト" source="x_348695_workflowt">7c64ffd34f2133000c1c4a10a310c7ab</sys_package>
         <sys_policy/>
         <sys_scope display_value="ワークフローテスト">7c64ffd34f2133000c1c4a10a310c7ab</sys_scope>
         <sys_update_name>sys_user_role_0d515c234fa133000c1c4a10a310c7be</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-06-03 04:59:34</sys_updated_on>
+        <sys_updated_on>2019-06-07 05:07:26</sys_updated_on>
     </sys_user_role>
 </record_update>

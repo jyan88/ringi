@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_translated">
+    <sys_translated action="INSERT_OR_UPDATE">
+        <element>mobile_title</element>
+        <id/>
+        <label>承認</label>
+        <language>ja</language>
+        <name>sys_app_module</name>
+        <sys_class_name>sys_translated</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-07 04:32:11</sys_created_on>
+        <sys_id>cb65554b4fb133000c1c4a10a310c70c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>承認</sys_name>
+        <sys_package display_value="ワークフローテスト" source="x_348695_workflowt">7c64ffd34f2133000c1c4a10a310c7ab</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ワークフローテスト">7c64ffd34f2133000c1c4a10a310c7ab</sys_scope>
+        <sys_update_name>sys_translated_cb65554b4fb133000c1c4a10a310c70c</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-07 04:32:11</sys_updated_on>
+        <value>承認</value>
+    </sys_translated>
+</record_update>
