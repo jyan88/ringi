@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element extends="sys_import_set_row" label="Imp Tmpl Incident" max_length="40" name="u_imp_tmpl_incident" type="collection">
+        <element attributes="edge_encryption_enabled=true,import_attribute_name=Assigned to" label="Assigned to" max_length="32" name="u_assigned_to" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="SLA 締結有無" max_length="40" name="u_sla_締結有無" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="アクティブ" max_length="40" name="u_アクティブ" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="アサイン先グループ" max_length="40" name="u_アサイン先グループ" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="インシデントステータス" max_length="40" name="u_インシデントステータス" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="オープン" max_length="40" name="u_オープン" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="カテゴリ" max_length="40" name="u_カテゴリ" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="クローズ" max_length="40" name="u_クローズ" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="クローズ担当者" max_length="40" name="u_クローズ担当者" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="コメントと作業メモ" max_length="40" name="u_コメントと作業メモ" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="サブカテゴリ" max_length="40" name="u_サブカテゴリ" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ステータスカラー" max_length="40" name="u_ステータスカラー" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ナレッジ" max_length="40" name="u_ナレッジ" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="ビジネスサービス" max_length="40" name="u_ビジネスサービス" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="フォローアップ日時" max_length="40" name="u_フォローアップ日時" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="会社" max_length="40" name="u_会社" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="作成者(opened_by)" max_length="40" name="u_作成者_opened_by_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="作業終了日時" max_length="40" name="u_作業終了日時" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="作業開始日時" max_length="40" name="u_作業開始日時" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="保留理由" max_length="40" name="u_保留理由" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="優先度" max_length="40" name="u_優先度" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="再アサイン回数" max_length="40" name="u_再アサイン回数" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="再オープン数" max_length="40" name="u_再オープン数" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="却下時" max_length="40" name="u_却下時" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="受付手段" max_length="40" name="u_受付手段" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="問い合わせユーザー" max_length="40" name="u_問い合わせユーザー" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="問題" max_length="40" name="u_問題" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="場所" max_length="40" name="u_場所" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="変更に起因" max_length="40" name="u_変更に起因" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="変更要求" max_length="40" name="u_変更要求" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="契約" max_length="40" name="u_契約" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="子インシデント数" max_length="40" name="u_子インシデント数" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="影響" max_length="40" name="u_影響" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="承認ステータス" max_length="40" name="u_承認ステータス" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="承認希望期限" max_length="40" name="u_承認希望期限" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="承認時" max_length="40" name="u_承認時" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="期限日時" max_length="40" name="u_期限日時" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="構成アイテム" max_length="40" name="u_構成アイテム" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="番号" max_length="40" name="u_番号" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="相関 ID" max_length="40" name="u_相関_id" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="相関ディスプレイ" max_length="40" name="u_相関ディスプレイ" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="終了コード" max_length="40" name="u_終了コード" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="緊急度" max_length="40" name="u_緊急度" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="親インシデント" max_length="40" name="u_親インシデント" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="親タスク" max_length="40" name="u_親タスク" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="解決メモ" max_length="40" name="u_解決メモ" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="解決済み" max_length="40" name="u_解決済み" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="解決者" max_length="40" name="u_解決者" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="説明" max_length="40" name="u_説明" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="説明(short_description)" max_length="40" name="u_説明_short_description_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="通知" max_length="40" name="u_通知" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="配送タスク" max_length="40" name="u_配送タスク" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="配送計画" max_length="40" name="u_配送計画" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="重大度" max_length="40" name="u_重大度" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="開始予定" max_length="40" name="u_開始予定" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="順番" max_length="40" name="u_順番" type="string"/>
+    </element>
+</database>
