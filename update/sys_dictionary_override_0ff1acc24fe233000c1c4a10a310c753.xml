@@ -5,14 +5,14 @@
         <base_table>task</base_table>
         <calculation/>
         <calculation_override>false</calculation_override>
-        <default_value/>
-        <default_value_override>false</default_value_override>
+        <default_value>javascript: new global.StateFlow().processFlow(current, '3c00ac824fe233000c1c4a10a310c708');</default_value>
+        <default_value_override>true</default_value_override>
         <dependent/>
         <dependent_override>false</dependent_override>
         <display_override>false</display_override>
-        <element>group_list</element>
+        <element>state</element>
         <mandatory>false</mandatory>
-        <mandatory_override>true</mandatory_override>
+        <mandatory_override>false</mandatory_override>
         <name>x_348695_workflowt_x_348695_reringi</name>
         <read_only>false</read_only>
         <read_only_override>false</read_only_override>
@@ -20,15 +20,15 @@
         <reference_qual_override>false</reference_qual_override>
         <sys_class_name>sys_dictionary_override</sys_class_name>
         <sys_created_by>admin</sys_created_by>
-        <sys_created_on>2019-05-28 01:47:34</sys_created_on>
-        <sys_id>22df0d734fa173000c1c4a10a310c731</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_name>group_list</sys_name>
+        <sys_created_on>2019-07-11 05:00:37</sys_created_on>
+        <sys_id>0ff1acc24fe233000c1c4a10a310c753</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>state</sys_name>
         <sys_package display_value="ワークフローテスト" source="x_348695_workflowt">7c64ffd34f2133000c1c4a10a310c7ab</sys_package>
         <sys_policy/>
         <sys_scope display_value="ワークフローテスト">7c64ffd34f2133000c1c4a10a310c7ab</sys_scope>
-        <sys_update_name>sys_dictionary_override_22df0d734fa173000c1c4a10a310c731</sys_update_name>
+        <sys_update_name>sys_dictionary_override_0ff1acc24fe233000c1c4a10a310c753</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-07-09 02:16:24</sys_updated_on>
+        <sys_updated_on>2019-07-11 05:00:37</sys_updated_on>
     </sys_dictionary_override>
 </record_update>

@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cs_consumer_channel">
+    <sys_cs_consumer_channel action="INSERT_OR_UPDATE">
+        <channel_group>TJPCKB7GT</channel_group>
+        <channel_info>{"userId":"UJPCKBA1Z"}</channel_info>
+        <channel_type>slack</channel_type>
+        <channel_user>DK9FQREKV</channel_user>
+        <consumer/>
+        <consumer_account/>
+        <control/>
+        <field_name/>
+        <profile/>
+        <provider_user_id>slack:TJPCKB7GT:UJPCKBA1Z</provider_user_id>
+        <session/>
+        <sys_class_name>sys_cs_consumer_channel</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-16 07:56:25</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>0b2a3e6b4f2633000c1c4a10a310c792</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="ワークフローテスト" source="x_348695_workflowt">7c64ffd34f2133000c1c4a10a310c7ab</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ワークフローテスト">7c64ffd34f2133000c1c4a10a310c7ab</sys_scope>
+        <sys_update_name>sys_cs_consumer_channel_0b2a3e6b4f2633000c1c4a10a310c792</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-16 07:56:25</sys_updated_on>
+        <task/>
+        <timezone>GMT+09:00</timezone>
+        <user_id>UJPCKBA1Z</user_id>
+        <user_name>kaji</user_name>
+        <vendor display_value="ServiceNow">c2f0b8f187033200246ddd4c97cb0bb9</vendor>
+        <version>1</version>
+    </sys_cs_consumer_channel>
+</record_update>

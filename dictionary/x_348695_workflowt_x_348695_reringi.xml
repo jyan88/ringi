@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element attributes="live_feed=true" audit="true" extends="task" label="稟議申請" max_length="40" name="x_348695_workflowt_x_348695_reringi" sizeclass="31" type="collection">
+    <element attributes="live_feed=true" audit="true" extends="task" label="稟議申請" max_length="40" name="x_348695_workflowt_x_348695_reringi" sizeclass="97" type="collection">
         <element label="所属長" mandatory="true" max_length="32" name="director" reference="sys_user" type="reference"/>
-        <element label="起案者" mandatory="true" max_length="32" name="drafter" reference="sys_user" type="reference"/>
-        <element label="起案者所属部署" mandatory="true" max_length="32" name="drafters_department" reference="sys_user_group" type="reference"/>
-        <element label="担当本部・部" mandatory="true" max_length="32" name="headquarter_department" reference="sys_user_group" type="reference"/>
+        <element label="起案者" max_length="32" name="drafter" reference="sys_user" type="reference"/>
+        <element label="起案者所属部署" max_length="32" name="drafters_department" reference="sys_user_group" type="reference"/>
+        <element label="担当本部・部" max_length="32" name="headquarter_department" reference="sys_user_group" type="reference"/>
         <element attributes="edge_encryption_enabled=true" default="@mki.co.jp" label="起案者連絡先（メール）" mandatory="true" max_length="1024" name="mail" type="url"/>
         <element attributes="edge_encryption_enabled=true" label="特記事項" max_length="500" name="notice" type="string"/>
-        <element label="発議者" mandatory="true" max_length="32" name="presenter" reference="sys_user" type="reference"/>
-        <element attributes="edge_encryption_enabled=true" label="件名" mandatory="true" max_length="50" name="subject" type="string"/>
+        <element label="発議者" max_length="32" name="presenter" reference="sys_user" type="reference"/>
+        <element attributes="edge_encryption_enabled=true" label="件名" max_length="50" name="subject" type="string"/>
         <element label="起案者連絡先（電話）" max_length="40" name="tel" type="phone_number_e164"/>
         <element attributes="edge_encryption_enabled=true" label="案件名" mandatory="true" max_length="40" name="topic" type="string"/>
         <element attributes="edge_encryption_enabled=true" choice="2" label="稟議決裁者区分" max_length="40" name="u_choice_3" type="string">
@@ -18,6 +18,12 @@
         </element>
         <element label="稟議申請書（ドラフト版）" max_length="40" name="u_file_attachment_5" type="file_attachment"/>
         <element label="その他資料" max_length="40" name="u_file_attachment_6" type="file_attachment"/>
+        <element choice="1" label="x_348695_workflowt_choice_1" max_length="40" name="x_348695_workflowt_choice_1" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="法務確認" value="legal"/>
+                <element inactive_on_update="false" label="規定確認" value="regulation"/>
+            </choice>
+        </element>
         <element choice="3" default="東アジア" label="地域" max_length="40" name="地域" type="choice">
             <choice>
                 <element inactive_on_update="false" label="中央アジア"/>

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element audit="true" label="Approval" max_length="40" name="sysapproval_approver" type="collection">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="法務・規定確認" max_length="40" name="x_348695_workflowt_choice_1" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="法務確認" value="legal"/>
+                <element inactive_on_update="false" label="規定" value="regulation"/>
+            </choice>
+        </element>
+    </element>
+</database>

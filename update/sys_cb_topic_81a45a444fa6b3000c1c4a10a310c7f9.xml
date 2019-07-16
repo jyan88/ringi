@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_cb_topic">
+    <sys_cb_topic action="INSERT_OR_UPDATE">
+        <applicability/>
+        <connect_queue/>
+        <description/>
+        <graph>{
+  "goals": {
+    "a1fff418a64840cebdecd57aa6ef09b0": {
+      "id": "a1fff418a64840cebdecd57aa6ef09b0",
+      "trigger": {
+        "type": "primary"
+      },
+      "name": "primary",
+      "applicability": "",
+      "description": "",
+      "nodes": {
+        "1c48599f65244155bd5ac34a61a903b3": {
+          "id": "1c48599f65244155bd5ac34a61a903b3",
+          "stepType": "Start",
+          "name": "Start",
+          "greetingResponse": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "47745bacd0c54712afb1bcf7a48e33ae": {
+          "id": "47745bacd0c54712afb1bcf7a48e33ae",
+          "stepType": "TerminateGoal",
+          "name": "End",
+          "confirmationMessage": {
+            "mode": "simple",
+            "value": ""
+          }
+        },
+        "64bf375e7b9349bf88f24af5f2fc9039": {
+          "stepType": "ChoicePrompt",
+          "name": "broken_type",
+          "prompt": {
+            "value": "(function execute() {\n    /* Return a quoted string.  For example:\n\n       var result;\n       if (vaInputs.first_name == 'Bill') {\n           return gs.getMessage('hi there {0}', [vaInputs.first_name]);\n       } else {\n           return gs.getMessage('how are you {0}', [vaInputs.last_name]);\n       }\n    */\n    return 'どのパーツが壊れましたか？';\n})()\n",
+            "mode": "script"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "4d997f0a7ca04e54a6aa0b2705e230b4",
+          "id": "64bf375e7b9349bf88f24af5f2fc9039"
+        },
+        "fe5c92bced9c43bd9d5e2d575c6b7a1f": {
+          "id": "fe5c92bced9c43bd9d5e2d575c6b7a1f",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "6461f366552f4717896882e9efe1ac75": {
+          "stepType": "ChoicePrompt",
+          "name": "pc state",
+          "prompt": {
+            "value": "(function execute() {\n return 'どのような症状ですか？';\n})()\n",
+            "mode": "script"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "fe7db9c543ba46c598abc3da23b78640",
+          "id": "6461f366552f4717896882e9efe1ac75"
+        },
+        "1923faac3bee4e8ebf7e99cf4cf4a893": {
+          "id": "1923faac3bee4e8ebf7e99cf4cf4a893",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "f5b8aebe41fa45e5b7d841ed57517b6e": {
+          "id": "f5b8aebe41fa45e5b7d841ed57517b6e",
+          "stepType": "Prompt",
+          "name": "topic",
+          "prompt": {
+            "value": "(function execute() {\n    /* Return a quoted string.  For example:\n\n       var result;\n       if (vaInputs.first_name == 'Bill') {\n           return gs.getMessage('hi there {0}', [vaInputs.first_name]);\n       } else {\n           return gs.getMessage('how are you {0}', [vaInputs.last_name]);\n       }\n    */\n    return '件名を入力してください';\n})()\n",
+            "mode": "script"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "a9331deb7a754737845a19be809196b0"
+        },
+        "31c845ed5d7c4b46af1f26217c20a3fc": {
+          "id": "31c845ed5d7c4b46af1f26217c20a3fc",
+          "stepType": "Prompt",
+          "name": "comment",
+          "prompt": {
+            "value": "(function execute() {\n    /* Return a quoted string.  For example:\n\n       var result;\n       if (vaInputs.first_name == 'Bill') {\n           return gs.getMessage('hi there {0}', [vaInputs.first_name]);\n       } else {\n           return gs.getMessage('how are you {0}', [vaInputs.last_name]);\n       }\n    */\n    return '詳細を入力してください';\n})()\n",
+            "mode": "script"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "045bb6055a8344028f3dc43d5a03148a"
+        },
+        "0c1ebc7323d5495db979100c20607178": {
+          "id": "0c1ebc7323d5495db979100c20607178",
+          "stepType": "TextOutput",
+          "name": "転送文",
+          "value": {
+            "value": "(function execute() {\n    /* Return a quoted string.  For example:\n\n       var result;\n       if (vaInputs.first_name == 'Bill') {\n           return gs.getMessage('hi there {0}', [vaInputs.first_name]);\n       } else {\n           return gs.getMessage('how are you {0}', [vaInputs.last_name]);\n       }\n    */\n    return '担当者へ転送します';\n})()\n",
+            "mode": "script"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        },
+        "f7689c26eed84d28b8029adf9ebedb24": {
+          "id": "f7689c26eed84d28b8029adf9ebedb24",
+          "name": "担当者へ転送",
+          "script": "(function execute() {\n\t    // Transfer to a live agent\n\t    vaSystem.connectToAgent();\n\t})()",
+          "stepType": "ScriptAction",
+          "applicability": {
+            "mode": "script",
+            "value": "(function execute() {\n\t    // If Live Chat is available, return true\n\t    // otherwise, return false\n\t    if (vaSystem.isLiveAgentAvailable()){\n\t\t    return true;\n\t    } else {\n\t        return false;\n\t    }\n\t})()"
+          }
+        },
+        "5ba843472e134618bd3523f9eb59eb1c": {
+          "id": "5ba843472e134618bd3523f9eb59eb1c",
+          "stepType": "Decision",
+          "name": "Decision"
+        },
+        "c1b28f442b0647eda8d839d470b31a0f": {
+          "id": "c1b28f442b0647eda8d839d470b31a0f",
+          "stepType": "RecordOutput",
+          "name": "インシデント画面",
+          "variableId": "db3f4c1084834d9bbab9ce946f792f47",
+          "mode": "variable",
+          "tableName": "incident",
+          "fields": [
+            "assigned_to",
+            "short_description",
+            "comments",
+            "caller_id"
+          ],
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "condition": {
+            "mode": "variable",
+            "value": ""
+          }
+        },
+        "7311951bd9cf4d20b2bc7967b7196de2": {
+          "stepType": "ChoicePrompt",
+          "name": "accept",
+          "prompt": {
+            "value": "(function execute() {\n    /* Return a quoted string.  For example:\n\n       var result;\n       if (vaInputs.first_name == 'Bill') {\n           return gs.getMessage('hi there {0}', [vaInputs.first_name]);\n       } else {\n           return gs.getMessage('how are you {0}', [vaInputs.last_name]);\n       }\n    */\n    return 'この内容でよろしいでしょうか？';\n})()\n",
+            "mode": "script"
+          },
+          "confirmMessage": {
+            "value": "",
+            "mode": "simple"
+          },
+          "acknowledgeMsg": {
+            "value": "",
+            "mode": "simple"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "optional": false,
+          "defaultValue": {
+            "value": "",
+            "mode": "simple"
+          },
+          "variableId": "4e5b5d2b102f4004a8f1e7ce928e7574",
+          "id": "7311951bd9cf4d20b2bc7967b7196de2"
+        },
+        "96f6f87f02474d68a481919a581b4512": {
+          "id": "96f6f87f02474d68a481919a581b4512",
+          "stepType": "CrudAction",
+          "name": "インシデント登録",
+          "template": "assigned_to=725f8d2b4fe533000c1c4a10a310c7d8^incident_state=1^sys_created_on={{vaInputs.user.sys_created_on}}^short_description={{vaInputs.topic}}^comments={{vaInputs.comment}}^caller_id={{vaInputs.user.sys_id}}",
+          "mode": "create",
+          "record": "",
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          },
+          "variableId": "db3f4c1084834d9bbab9ce946f792f47"
+        },
+        "39427ae39d8b4cb4ab883cf3d674fa1e": {
+          "id": "39427ae39d8b4cb4ab883cf3d674fa1e",
+          "stepType": "TextOutput",
+          "name": "マウス遷移説明",
+          "value": {
+            "value": "(function execute() {\n    /* Return a quoted string.  For example:\n\n       var result;\n       if (vaInputs.first_name == 'Bill') {\n           return gs.getMessage('hi there {0}', [vaInputs.first_name]);\n       } else {\n           return gs.getMessage('how are you {0}', [vaInputs.last_name]);\n       }\n    */\n    return 'こちらから注文してください';\n})()\n",
+            "mode": "script"
+          },
+          "applicability": {
+            "value": "broken_type=mouse",
+            "mode": "query"
+          }
+        },
+        "48358bd440244e958f1c183616d97d47": {
+          "id": "48358bd440244e958f1c183616d97d47",
+          "stepType": "LinkOutput",
+          "name": "サービスカタログへ遷移",
+          "url": {
+            "value": "https://dev53299.service-now.com/nav_to.do?uri=%2Fcatalog_home.do%3Fsysparm_view%3Dcatalog_default",
+            "mode": "simple"
+          },
+          "label": {
+            "value": "(function execute() {\n    /* Return a quoted string.  For example:\n\n       var result;\n       if (vaInputs.first_name == 'Bill') {\n           return gs.getMessage('hi there {0}', [vaInputs.first_name]);\n       } else {\n           return gs.getMessage('how are you {0}', [vaInputs.last_name]);\n       }\n    */\n    return 'ここをクリック';\n})()\n",
+            "mode": "script"
+          },
+          "header": {
+            "value": "(function execute() {\n    /* Return a quoted string.  For example:\n\n       var result;\n       if (vaInputs.first_name == 'Bill') {\n           return gs.getMessage('hi there {0}', [vaInputs.first_name]);\n       } else {\n           return gs.getMessage('how are you {0}', [vaInputs.last_name]);\n       }\n    */\n    return '下記のリンクから申請してください';\n})()\n",
+            "mode": "script"
+          },
+          "applicability": {
+            "value": "",
+            "mode": "query"
+          }
+        }
+      },
+      "edges": [
+        {
+          "id": "cf4781bf734d45e094a9b5fdff092cf8",
+          "edgeType": "Edge",
+          "source": "48358bd440244e958f1c183616d97d47",
+          "target": "47745bacd0c54712afb1bcf7a48e33ae",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "1abdd14d91734f38a2d81831e32948fa",
+          "edgeType": "Branch",
+          "source": "1923faac3bee4e8ebf7e99cf4cf4a893",
+          "target": "f5b8aebe41fa45e5b7d841ed57517b6e",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "pc_state=no_boot",
+            "mode": "query"
+          },
+          "label": "立ち上がらない時"
+        },
+        {
+          "id": "7dcebdb17c79440da29c776b76f04608",
+          "edgeType": "Branch",
+          "source": "5ba843472e134618bd3523f9eb59eb1c",
+          "target": "47745bacd0c54712afb1bcf7a48e33ae",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "accept=accept_yes",
+            "mode": "query"
+          },
+          "label": "はい"
+        },
+        {
+          "id": "3b45b62078564abd80efa01b050da7de",
+          "edgeType": "Edge",
+          "source": "7311951bd9cf4d20b2bc7967b7196de2",
+          "target": "5ba843472e134618bd3523f9eb59eb1c",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "8636cad611284d46a754d9ac0dbf2fbf",
+          "edgeType": "Edge",
+          "source": "f7689c26eed84d28b8029adf9ebedb24",
+          "target": "47745bacd0c54712afb1bcf7a48e33ae",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "ca3608e3b7cc48af8f2f531c981b1d6b",
+          "edgeType": "Edge",
+          "source": "1c48599f65244155bd5ac34a61a903b3",
+          "target": "64bf375e7b9349bf88f24af5f2fc9039",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "259a08d20b1a4d3b9bf21a7b248beb61",
+          "edgeType": "Edge",
+          "source": "64bf375e7b9349bf88f24af5f2fc9039",
+          "target": "fe5c92bced9c43bd9d5e2d575c6b7a1f",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "d8eb45f55ef84dee82bf8b45ed93ffb1",
+          "edgeType": "Branch",
+          "source": "fe5c92bced9c43bd9d5e2d575c6b7a1f",
+          "target": "47745bacd0c54712afb1bcf7a48e33ae",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "broken_type=other",
+            "mode": "query"
+          },
+          "label": "その他"
+        },
+        {
+          "id": "f42c4b769ec644819bbb4ceed1c63030",
+          "edgeType": "Branch",
+          "source": "fe5c92bced9c43bd9d5e2d575c6b7a1f",
+          "target": "6461f366552f4717896882e9efe1ac75",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "broken_type=pc",
+            "mode": "query"
+          },
+          "label": "パソコン"
+        },
+        {
+          "id": "85b8110e2737482b9ae4dc28f1fb4397",
+          "edgeType": "Edge",
+          "source": "6461f366552f4717896882e9efe1ac75",
+          "target": "1923faac3bee4e8ebf7e99cf4cf4a893",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "25ca41467a4546f9ac310baf176074c1",
+          "edgeType": "Edge",
+          "source": "f5b8aebe41fa45e5b7d841ed57517b6e",
+          "target": "31c845ed5d7c4b46af1f26217c20a3fc",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "88a9493a92564802967afb55e45fdea4",
+          "edgeType": "Branch",
+          "source": "1923faac3bee4e8ebf7e99cf4cf4a893",
+          "target": "0c1ebc7323d5495db979100c20607178",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "pc_state!=no_boot",
+            "mode": "query"
+          },
+          "label": "それ以外"
+        },
+        {
+          "id": "4f77b22be3cd4dbaa6e2fcf91fd59c1f",
+          "edgeType": "Edge",
+          "source": "0c1ebc7323d5495db979100c20607178",
+          "target": "f7689c26eed84d28b8029adf9ebedb24",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "3d07ddbbca574060b6a321ec442c1e66",
+          "edgeType": "Branch",
+          "source": "5ba843472e134618bd3523f9eb59eb1c",
+          "target": "f5b8aebe41fa45e5b7d841ed57517b6e",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "accept=accept_no",
+            "mode": "query"
+          },
+          "label": "いいえ"
+        },
+        {
+          "id": "eaf814cd85cf4b26bc6f5f2444f8f7a8",
+          "edgeType": "Edge",
+          "source": "c1b28f442b0647eda8d839d470b31a0f",
+          "target": "7311951bd9cf4d20b2bc7967b7196de2",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "412814247bd9439fb56c98b6667417fc",
+          "edgeType": "Edge",
+          "source": "31c845ed5d7c4b46af1f26217c20a3fc",
+          "target": "96f6f87f02474d68a481919a581b4512",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "49dcfa13ef8049c2a1bc83c03211b6e9",
+          "edgeType": "Edge",
+          "source": "96f6f87f02474d68a481919a581b4512",
+          "target": "c1b28f442b0647eda8d839d470b31a0f",
+          "sourcePort": "",
+          "targetPort": ""
+        },
+        {
+          "id": "41942c2909b546989a2fec5703521b86",
+          "edgeType": "Branch",
+          "source": "fe5c92bced9c43bd9d5e2d575c6b7a1f",
+          "target": "39427ae39d8b4cb4ab883cf3d674fa1e",
+          "sourcePort": "",
+          "targetPort": "",
+          "expression": {
+            "value": "broken_type=mouse",
+            "mode": "query"
+          },
+          "label": "マウスの時"
+        },
+        {
+          "id": "e57f20f8cc5d4afcbb6709db44de88a8",
+          "edgeType": "Edge",
+          "source": "39427ae39d8b4cb4ab883cf3d674fa1e",
+          "target": "48358bd440244e958f1c183616d97d47",
+          "sourcePort": "",
+          "targetPort": ""
+        }
+      ]
+    }
+  },
+  "graph_api_version": "1.0.10",
+  "variables": {
+    "4d997f0a7ca04e54a6aa0b2705e230b4": {
+      "id": "4d997f0a7ca04e54a6aa0b2705e230b4",
+      "name": "broken_type",
+      "label": "Broken_type",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "パソコン",
+          "value": "pc"
+        },
+        {
+          "label": "マウス",
+          "value": "mouse"
+        },
+        {
+          "label": "電源",
+          "value": "power"
+        },
+        {
+          "label": "その他",
+          "value": "other"
+        }
+      ],
+      "category": "vaInputs"
+    },
+    "fe7db9c543ba46c598abc3da23b78640": {
+      "id": "fe7db9c543ba46c598abc3da23b78640",
+      "name": "pc_state",
+      "label": "Pc State",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "立ち上がらない",
+          "value": "no_boot"
+        },
+        {
+          "label": "ログインできない",
+          "value": "no_login"
+        },
+        {
+          "label": "ネットが繋がらない",
+          "value": "no_network"
+        },
+        {
+          "label": "その他",
+          "value": "no_other"
+        }
+      ],
+      "category": "vaInputs"
+    },
+    "db3f4c1084834d9bbab9ce946f792f47": {
+      "id": "db3f4c1084834d9bbab9ce946f792f47",
+      "name": "_______",
+      "label": "インシデント登録",
+      "varType": "reference",
+      "table": "incident",
+      "inactive": false,
+      "category": "vaInputs"
+    },
+    "a9331deb7a754737845a19be809196b0": {
+      "id": "a9331deb7a754737845a19be809196b0",
+      "name": "topic",
+      "label": "Topic",
+      "varType": "string",
+      "category": "vaInputs"
+    },
+    "045bb6055a8344028f3dc43d5a03148a": {
+      "id": "045bb6055a8344028f3dc43d5a03148a",
+      "name": "comment",
+      "label": "Comment",
+      "varType": "string",
+      "category": "vaInputs"
+    },
+    "60b42917b0c2427fa08957290e14b4ce": {
+      "id": "60b42917b0c2427fa08957290e14b4ce",
+      "value": {
+        "mode": "simple",
+        "value": "0"
+      },
+      "name": "search_count",
+      "label": "search_count",
+      "varType": "script",
+      "category": "vaVars"
+    },
+    "4e5b5d2b102f4004a8f1e7ce928e7574": {
+      "id": "4e5b5d2b102f4004a8f1e7ce928e7574",
+      "name": "accept",
+      "label": "Accept",
+      "varType": "choice",
+      "choices": [
+        {
+          "label": "はい",
+          "value": "confirmation_yes"
+        },
+        {
+          "label": "いいえ",
+          "value": "confirmation_no"
+        }
+      ],
+      "category": "vaInputs"
+    },
+    "current-user": {
+      "category": "vaInputs",
+      "id": "current-user",
+      "label": "User",
+      "name": "user",
+      "table": "sys_user",
+      "varType": "reference"
+    }
+  }
+}</graph>
+        <key_phrases>パソコン壊れた,テスト</key_phrases>
+        <live_agent>false</live_agent>
+        <name>ハードウェア故障問い合わせ改</name>
+        <roles/>
+        <sys_class_name>sys_cb_topic</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-05 08:13:41</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_id>81a45a444fa6b3000c1c4a10a310c7f9</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>ハードウェア故障問い合わせ改</sys_name>
+        <sys_package display_value="ワークフローテスト" source="x_348695_workflowt">7c64ffd34f2133000c1c4a10a310c7ab</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ワークフローテスト">7c64ffd34f2133000c1c4a10a310c7ab</sys_scope>
+        <sys_update_name>sys_cb_topic_81a45a444fa6b3000c1c4a10a310c7f9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-08 04:39:29</sys_updated_on>
+        <variables/>
+    </sys_cb_topic>
+    <sys_variable_value action="delete_multiple" query="document_key=81a45a444fa6b3000c1c4a10a310c7f9"/>
+</record_update>

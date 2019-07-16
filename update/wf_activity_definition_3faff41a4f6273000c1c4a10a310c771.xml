@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="wf_activity_definition">
+    <wf_activity_definition action="INSERT_OR_UPDATE">
+        <access>public</access>
+        <action>false</action>
+        <attributes/>
+        <base_provider/>
+        <category>Conditions</category>
+        <default_height/>
+        <default_width/>
+        <description>The If activity checks a condition or script to determine which transition a workflow should follow, either 'Yes' or 'No'.&#13;
+&#13;
+Use this activity to transition workflow to a specific path based on result of condition.&#13;
+&#13;
+The activity state tells the workflow engine how to handle the record being executed. Possible state values are:&#13;
+*Executing: the workflow starts the 'onExecute' function of the activity.&#13;
+*Waiting: the workflow engine ignores the activity until a specific event to restart the activity is fired. &#13;
+*Finished: the activity finished running. See the result value for the outcome of the activity.&#13;
+*Cancelled: this activity, or the workflow that contains this activity, was canceled.&#13;
+*Error: a JavaScript error occurred. Review the logs for error details.&#13;
+&#13;
+You can assign a result value using 'activity.result' from within a script field of the activity. By default, the result value of the activity is the final result of the condition or script specified. Possible result values are: &#13;
+*Yes &#13;
+*No&#13;
+&#13;
+Keep in mind: &#13;
+*If you specify both the 'Condition' and the advanced 'Script', both conditions must evaluate to true for the workflow to take the 'Yes' transition.</description>
+        <image>images/heisenberg_icons/workflow/if.png</image>
+        <js_class_name>If_sysapproval</js_class_name>
+        <name>If</name>
+        <script><![CDATA[// Workflow activity definition handler class
+//
+// Implement activity definition handling in the onExecute method
+//
+// Implement any event handlers for the activity definition as a method named 'on[event_name]'
+//     For example, to handle the 'cancel' event, implement an 'onCancel' method
+//
+
+var If_sysapprovalActivityHandler = Class.create();
+If_sysapprovalActivityHandler.prototype = Object.extendsObject(WFActivityHandler, {
+   
+   initialize: function() {
+      WFActivityHandler.prototype.initialize.call(this);
+   },
+   
+   onExecute: function() {
+      if (this._checkQueryCondition() && this._checkScriptCondition())
+         activity.result = 'yes';
+      else
+         activity.result = 'no';
+   },
+   
+   // Filter condition matching
+   _checkQueryCondition: function() {
+      try {
+         // is there a filter to match?
+         var condition = activity.vars.condition + '';
+         if (!condition)
+            return true;
+         
+         var match = GlideFilter.checkRecord(current, condition);
+         return match === true;
+         
+      } catch (ex) {
+         this.error(ex);
+         activity.state = "faulted";
+      }
+      return false;
+   },
+   
+   // Script condition matching
+   _checkScriptCondition: function() {
+      // is there a script?
+      if (!activity.vars.advanced)
+         return true;
+      
+      var script = activity.vars.script + '';
+      if (!script)
+         return true;
+
+      var answer = this.runScript(script);
+      return ((answer === true) || (answer === 'yes'));
+   },
+   
+   type: 'If_sysapprovalActivityHandler'
+});]]></script>
+        <style/>
+        <sys_class_name>wf_activity_definition</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-12 01:48:51</sys_created_on>
+        <sys_id>3faff41a4f6273000c1c4a10a310c771</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>If_sysapproval</sys_name>
+        <sys_package display_value="ワークフローテスト" source="x_348695_workflowt">7c64ffd34f2133000c1c4a10a310c7ab</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ワークフローテスト">7c64ffd34f2133000c1c4a10a310c7ab</sys_scope>
+        <sys_update_name>wf_activity_definition_3faff41a4f6273000c1c4a10a310c771</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-12 04:25:55</sys_updated_on>
+        <table>global</table>
+        <version_container_id/>
+    </wf_activity_definition>
+    <sys_translated_text action="delete_multiple" query="documentkey=3faff41a4f6273000c1c4a10a310c771"/>
+    <sys_translated_text action="INSERT_OR_UPDATE">
+        <documentkey>3faff41a4f6273000c1c4a10a310c771</documentkey>
+        <fieldname>name</fieldname>
+        <language>ja</language>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-12 01:48:51</sys_created_on>
+        <sys_id>7baff41a4f6273000c1c4a10a310c772</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-12 01:49:43</sys_updated_on>
+        <tablename>wf_activity_definition</tablename>
+        <value>If_sysapproval</value>
+    </sys_translated_text>
+</record_update>

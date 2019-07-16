@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_process_flow">
+    <sys_process_flow action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition table="x_348695_workflowt_x_348695_reringi">status=regulation^EQ<item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </condition>
+        <description/>
+        <label>規定確認</label>
+        <name>規定確認</name>
+        <order>5</order>
+        <sys_class_name>sys_process_flow</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-11 05:49:40</sys_created_on>
+        <sys_id>f52de48e4fe233000c1c4a10a310c734</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>規定確認</sys_name>
+        <sys_package display_value="ワークフローテスト" source="x_348695_workflowt">7c64ffd34f2133000c1c4a10a310c7ab</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="ワークフローテスト">7c64ffd34f2133000c1c4a10a310c7ab</sys_scope>
+        <sys_update_name>sys_process_flow_f52de48e4fe233000c1c4a10a310c734</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-11 05:50:00</sys_updated_on>
+        <table>x_348695_workflowt_x_348695_reringi</table>
+    </sys_process_flow>
+</record_update>
